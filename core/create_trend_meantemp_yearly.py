@@ -6,7 +6,7 @@ min_lat, max_lat = 25.0, 32.0
 min_lon, max_lon = -90.0, -75.0
 
 # Read the location data from the JSON file
-with open('json/weather_stations.json') as f:
+with open('../static/json/weather_stations.json') as f:
     locations = json.load(f)
 
 # Create map centered on Florida
@@ -21,7 +21,7 @@ florida_map = folium.Map(
 # Add markers for each location
 # Add markers for each location
 for location in locations:
-    popup_html = "<b>{station_name} ({station_id})</b><br>lat: {station_lat}, lon: {station_lon}<br><a href='static/img/yearly_trend/{station_id}_mean_trend_yearly.png'><img src='static/img/yearly_trend/{station_id}_mean_trend_yearly.png' width='100%' height='100%'></a>".format(
+    popup_html = "<b>{station_name} ({station_id})</b><br>lat: {station_lat}, lon: {station_lon}<br><a href='../../static/img/plots/trends/meantemp_yearly/{station_id}_mean_trend_yearly.png'><img src='../../static/img/plots/trends/meantemp_yearly/{station_id}_mean_trend_yearly.png' width='100%' height='100%'></a>".format(
         station_name=location['station_name'],
         station_id=location['station_id'],
         station_lat=location['station_lat'],
@@ -37,4 +37,4 @@ for location in locations:
 
 
 # Save map as HTML file
-florida_map.save('florida_map.html')
+florida_map.save('../template/maps/map_trend_meantemp_yearly.html')
