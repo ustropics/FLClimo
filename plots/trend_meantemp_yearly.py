@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 import json
 
 # Set the directory where the CSV files are located
-directory = 'data/weather_stations/'
+directory = '../data/weather_stations/'
 
 # Load the data from the JSON file
-with open('json/weather_stations.json') as f:
+with open('../static/json/weather_stations.json') as f:
     weather_stations = json.load(f)
 
 # Loop over all CSV files in the directory
@@ -70,7 +70,7 @@ for filename in os.listdir(directory):
         plt.ylabel('Mean Temperature (°F)')
 
         # Save the plot as an image
-        plt.savefig('images/'+station_id+'_mean_trend_yearly.png', dpi=300, bbox_inches='tight')
+        plt.savefig('../static/img/plots/trends/meantemp_yearly/'+station_id+'_mean_trend_yearly.png', dpi=300, bbox_inches='tight')
 
         # Close the plot to free up memory
         plt.close()
