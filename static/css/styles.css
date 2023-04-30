@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
   font-family: "Poppins", sans-serif;
-  background: #fafafa;
+  background: #262626;
 }
 p {
   font-size: 1.1em;
@@ -66,7 +66,7 @@ a:focus {
 }
 #sidebar ul li a {
   padding: 10px;
-  font-size: 1.1em;
+  font-size: 14px;
   display: block;
 }
 #sidebar ul li a:hover {
@@ -127,4 +127,8 @@ a.download:hover {
   #sidebarCollapse span {
     display: none;
   }
+}
+
+#top_navbar {
+  background: #0f0f0f;
 }

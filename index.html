@@ -15,53 +15,54 @@
     <div class="wrapper">
       <nav id="sidebar">
         <div class="sidebar-header">
-          <h3>MET3220 FINAL</h3>
-          <hr />
+          <h4>FLORIDA CLIMATE</h4>
         </div>
         <ul class="list-unstyled components">
-          <p>MENUS</p>
           <li>
             <a
               href="#homeSubmenu"
               data-toggle="collapse"
               aria-expanded="false"
               class="dropdown-toggle"
-              >Dashboard</a
+              >Yearly Trends</a
             >
-            <ul class="collapse list-unstyled" id="homeSubmenu">
-              <li><a href="#">Dashboard1</a></li>
-              <li><a href="#">Dashboard2</a></li>
-              <li><a href="#">Dashboard3</a></li>
+            <ul class="collapse list-unstyled show" id="homeSubmenu">
+              <li><a href="#">Mean Temperature</a></li>
+              <li><a href="#">Maxium Temperature</a></li>
+              <li><a href="#">Minimum Temperature</a></li>
+              <li><a href="#">Precipitation</a></li>
             </ul>
           </li>
-          <li><a href="#">Users</a></li>
           <li>
             <a
               href="#pageSubmenu"
               data-toggle="collapse"
               aria-expanded="false"
               class="dropdown-toggle"
-              >Subscribers</a
+              >Temperature Time Series</a
             >
             <ul class="collapse list-unstyled" id="pageSubmenu">
-              <li><a href="#">Active</a></li>
-              <li><a href="#">Idle</a></li>
-              <li><a href="#">Non Active</a></li>
+              <li><a href="#">1880-1910</a></li>
+              <li><a href="#">1910-1940</a></li>
+              <li><a href="#">1940-1970</a></li>
+              <li><a href="#">1970-2000</a></li>
+              <li><a href="#">2000-Present</a></li>
             </ul>
           </li>
-          <li><a href="#">Timeline</a></li>
-          <li><a href="#">Live Chat</a></li>
+          <li><a href="#">Stations</a></li>
+          <li><a href="#">CSV Data</a></li>
+          <li><a href="#">About</a></li>
           <li><a href="#">Likes</a></li>
           <li><a href="#">Comments</a></li>
         </ul>
         <ul class="list-unstyled CTAs">
-          <li><a href="#" class="download">Subscribe</a></li>
+          <li><a href="#" class="btn-danger">Subscribe</a></li>
         </ul>
       </nav>
       <div class="content container-fluid" style="padding-left: 0px;">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <button type="button" id="sidebarCollapse" class="btn btn-info">
-            <i class="fa fa-align-justify"></i>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="top_navbar">
+          <button type="button" id="sidebarCollapse" class="btn btn-danger">
+            <i class="fa fa-window-restore"></i>
           </button>
           <button
             class="navbar-toggler"
@@ -90,8 +91,7 @@
           </div>
         </nav>
         <div class="content-wrapper">
-            <iframe src="florida_map.html" width="100%" height="800px"></iframe>
-          <div class="line"></div>
+            <iframe src="florida_map.html" width="100%" height="860px" style="border-width: 0; margin-top: -55px; margin-left: -15px;"></iframe>
         </div>
       </div>
     </div>
