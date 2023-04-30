@@ -19,8 +19,18 @@ florida_map = folium.Map(
 )
 
 # Add markers for each location
-# Add markers for each location
 for location in locations:
+    # Get the trend_meantemp_yearly value for the current location
+    trend = location['trend_meantemp_yearly']
+    
+    # Set the color of the marker based on the trend value
+    if trend < 0:
+        color = 'blue'
+    elif trend >= 0 and trend <= 4:
+        color = 'orange'
+    else:
+        color = 'red'
+        
     popup_html = "<b>{station_name} ({station_id})</b><br>lat: {station_lat}, lon: {station_lon}<br><a href='../../static/img/plots/trends/meantemp_yearly/{station_id}_mean_trend_yearly.png'><img src='../../static/img/plots/trends/meantemp_yearly/{station_id}_mean_trend_yearly.png' width='100%' height='100%'></a>".format(
         station_name=location['station_name'],
         station_id=location['station_id'],
@@ -30,7 +40,7 @@ for location in locations:
 
     marker = folium.Marker(
         location=(location["station_lat"],location["station_lon"]), 
-        icon=folium.Icon(color=location["color"]),
+        icon=folium.Icon(color=color),
         popup=folium.Popup(html=popup_html, max_width=1000, min_width=500)
     )
     marker.add_to(florida_map)

@@ -6,9 +6,10 @@ import json
 
 # Set the directory where the CSV files are located
 directory = '../data/weather_stations/'
+json_file = '../static/json/weather_stations.json' 
 
 # Load the data from the JSON file
-with open('../static/json/weather_stations.json') as f:
+with open(json_file) as f:
     weather_stations = json.load(f)
 
 # Loop over all CSV files in the directory
@@ -61,16 +62,24 @@ for filename in os.listdir(directory):
         z = np.polyfit(mean_temps.index, mean_temps.values, 1)
         p = np.poly1d(z)
 
-        # Create a line plot of the mean temperature for each year
-        plt.figure(figsize=(16,9))
-        plt.plot(mean_temps.index, mean_temps.values, 'o')
-        plt.plot(mean_temps.index, p(mean_temps.index), 'r--')
-        plt.title('Mean Temperature by Year - ' + station_name + ' (' + station_id + ')')
+        # Get the slope coefficient of the trend line
+        slope = 0
+        slope = z[0]
+        print(slope)
+
+        for station in weather_stations:
+            if station['station_name'] == station_name:
+                station['trend_meantemp_yearly'] = slope*100
+                break
+
         plt.xlabel('Year')
         plt.ylabel('Mean Temperature (°F)')
 
         # Save the plot as an image
-        plt.savefig('../static/img/plots/trends/meantemp_yearly/'+station_id+'_mean_trend_yearly.png', dpi=300, bbox_inches='tight')
+        # plt.savefig('../static/img/plots/trends/meantemp_yearly/'+station_id+'_mean_trend_yearly.png', dpi=300, bbox_inches='tight')
 
         # Close the plot to free up memory
         plt.close()
+# Write updated data to JSON file
+with open(json_file, 'w') as f:
+    json.dump(weather_stations, f, indent=4)
