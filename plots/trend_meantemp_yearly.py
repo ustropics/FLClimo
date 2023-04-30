@@ -32,14 +32,17 @@ for filename in os.listdir(directory):
         # Convert the 'YEAR' column to integer type
         data['YEAR'] = data['YEAR'].astype(int)
 
-        # Replace -99.99 values with NaN
-        data = data.replace(-99.99, np.nan)
+        # Convert 'MEAN TEMP' column to numeric dtype
+        data['MEAN TEMP'] = pd.to_numeric(data['MEAN TEMP'], errors='coerce')
+
+        # Replace values outside the range of -50 to 150 with NaN
+        data.loc[~data['MEAN TEMP'].between(-50, 150), 'MEAN TEMP'] = np.nan
 
         # Remove any rows that contain NaN values
         data = data.dropna()
 
         # Set a threshold for the number of non-missing values in each year
-        min_days_per_year = 180
+        min_days_per_year = 300
 
         # Filter the data to include only years with enough non-missing values
         year_counts = data.groupby('YEAR')['MEAN TEMP'].count()
@@ -65,18 +68,22 @@ for filename in os.listdir(directory):
         # Get the slope coefficient of the trend line
         slope = 0
         slope = z[0]
-        print(slope)
+        # print(slope)
 
         for station in weather_stations:
             if station['station_name'] == station_name:
-                station['trend_meantemp_yearly'] = slope*100
+                station['trend_meantemp_yearly'] = abs(slope)*100
                 break
 
+        plt.figure(figsize=(16,9))
+        plt.plot(mean_temps.index, mean_temps.values, 'o')
+        plt.plot(mean_temps.index, p(mean_temps.index), 'r--')
+        plt.title('Minimum Temperature by Year - ' + station_name + ' (' + station_id + ')')
         plt.xlabel('Year')
         plt.ylabel('Mean Temperature (°F)')
 
         # Save the plot as an image
-        # plt.savefig('../static/img/plots/trends/meantemp_yearly/'+station_id+'_mean_trend_yearly.png', dpi=300, bbox_inches='tight')
+        plt.savefig('../static/img/plots/trends/meantemp_yearly/'+station_id+'_mean_trend_yearly.png', dpi=300, bbox_inches='tight')
 
         # Close the plot to free up memory
         plt.close()

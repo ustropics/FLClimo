@@ -7,7 +7,7 @@
         "start_year": 1931,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 0.48852559561211284
+        "trend_meantemp_yearly": 1.1461332767955645
     },
     {
         "station_id": 80228,
@@ -17,7 +17,7 @@
         "start_year": 1899,
         "end_year": 2021,
         "color": "orange",
-        "trend_meantemp_yearly": -0.3177482555288643
+        "trend_meantemp_yearly": 0.28429736605889383
     },
     {
         "station_id": 80236,
@@ -27,7 +27,7 @@
         "start_year": 1969,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 2.7071396165862054
+        "trend_meantemp_yearly": 2.7036299164087905
     },
     {
         "station_id": 80369,
@@ -37,7 +37,7 @@
         "start_year": 1892,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": -0.11753779296064873
+        "trend_meantemp_yearly": 0.3443747418256098
     },
     {
         "station_id": 80478,
@@ -47,7 +47,7 @@
         "start_year": 1892,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 1.618790411330146
+        "trend_meantemp_yearly": 1.6393813942917124
     },
     {
         "station_id": 80611,
@@ -57,7 +57,7 @@
         "start_year": 1924,
         "end_year": 2005,
         "color": "red",
-        "trend_meantemp_yearly": 2.616703140751072
+        "trend_meantemp_yearly": 2.3285421558694863
     },
     {
         "station_id": 80945,
@@ -67,7 +67,7 @@
         "start_year": 1965,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 5.53342633709084
+        "trend_meantemp_yearly": 5.940527036021654
     },
     {
         "station_id": 81046,
@@ -77,7 +77,7 @@
         "start_year": 1892,
         "end_year": 2012,
         "color": "orange",
-        "trend_meantemp_yearly": 0.356810858966309
+        "trend_meantemp_yearly": 0.14454617359515007
     },
     {
         "station_id": 81163,
@@ -87,7 +87,7 @@
         "start_year": 1918,
         "end_year": 2020,
         "color": "orange",
-        "trend_meantemp_yearly": 1.5136719852421512
+        "trend_meantemp_yearly": 0.7938859571334786
     },
     {
         "station_id": 81276,
@@ -97,7 +97,7 @@
         "start_year": 1941,
         "end_year": 2022,
         "color": "red",
-        "trend_meantemp_yearly": 4.195105414533569
+        "trend_meantemp_yearly": 5.35733047793575
     },
     {
         "station_id": 81544,
@@ -107,7 +107,7 @@
         "start_year": 1939,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": -1.6137632311114143
+        "trend_meantemp_yearly": 0.537806147090913
     },
     {
         "station_id": 81641,
@@ -117,7 +117,7 @@
         "start_year": 1948,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 1.5846907245471953
+        "trend_meantemp_yearly": 1.9857330701961469
     },
     {
         "station_id": 81978,
@@ -127,7 +127,7 @@
         "start_year": 1912,
         "end_year": 2020,
         "color": "blue",
-        "trend_meantemp_yearly": -0.10445303469658854
+        "trend_meantemp_yearly": 0.13989224501159983
     },
     {
         "station_id": 81986,
@@ -137,7 +137,7 @@
         "start_year": 1948,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 0.3160755038180519
+        "trend_meantemp_yearly": 0.4472790500221879
     },
     {
         "station_id": 82008,
@@ -147,7 +147,7 @@
         "start_year": 1948,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": -0.9857113045388546
+        "trend_meantemp_yearly": 0.8952337064288794
     },
     {
         "station_id": 82150,
@@ -157,7 +157,7 @@
         "start_year": 1923,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 1.217821861347041
+        "trend_meantemp_yearly": 1.2221839501444705
     },
     {
         "station_id": 82158,
@@ -167,7 +167,7 @@
         "start_year": 1948,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 2.551285685864041
+        "trend_meantemp_yearly": 3.1180266692645717
     },
     {
         "station_id": 82220,
@@ -177,7 +177,7 @@
         "start_year": 1896,
         "end_year": 2010,
         "color": "blue",
-        "trend_meantemp_yearly": -1.0752857485288263
+        "trend_meantemp_yearly": 0.8588248298471135
     },
     {
         "station_id": 82229,
@@ -187,7 +187,7 @@
         "start_year": 1892,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": -0.3659587005097824
+        "trend_meantemp_yearly": 0.15123789873485252
     },
     {
         "station_id": 82298,
@@ -197,7 +197,7 @@
         "start_year": 1956,
         "end_year": 2022,
         "color": "red",
-        "trend_meantemp_yearly": 1.0968553269658432
+        "trend_meantemp_yearly": 2.743131316953175
     },
     {
         "station_id": 82850,
@@ -207,7 +207,7 @@
         "start_year": 1924,
         "end_year": 2017,
         "color": "red",
-        "trend_meantemp_yearly": -0.3032844185329077
+        "trend_meantemp_yearly": 0.060976150345371447
     },
     {
         "station_id": 82915,
@@ -217,7 +217,7 @@
         "start_year": 1892,
         "end_year": 2020,
         "color": "blue",
-        "trend_meantemp_yearly": 0.27078396689245554
+        "trend_meantemp_yearly": 0.273920244473203
     },
     {
         "station_id": 82944,
@@ -227,7 +227,7 @@
         "start_year": 1892,
         "end_year": 2020,
         "color": "blue",
-        "trend_meantemp_yearly": -0.40075083948625395
+        "trend_meantemp_yearly": 0.2538820467045462
     },
     {
         "station_id": 83020,
@@ -237,7 +237,7 @@
         "start_year": 1962,
         "end_year": 2021,
         "color": "red",
-        "trend_meantemp_yearly": 4.441349636924406
+        "trend_meantemp_yearly": 4.435549229920967
     },
     {
         "station_id": 83137,
@@ -247,7 +247,7 @@
         "start_year": 1948,
         "end_year": 2011,
         "color": "orange",
-        "trend_meantemp_yearly": -0.1865224360380194
+        "trend_meantemp_yearly": 1.61817143561566
     },
     {
         "station_id": 83153,
@@ -257,7 +257,7 @@
         "start_year": 1948,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 4.7392111098800065
+        "trend_meantemp_yearly": 12.590352465119345
     },
     {
         "station_id": 83163,
@@ -267,7 +267,7 @@
         "start_year": 1912,
         "end_year": 2022,
         "color": "red",
-        "trend_meantemp_yearly": 1.2015100086557822
+        "trend_meantemp_yearly": 1.30555562398446
     },
     {
         "station_id": 83168,
@@ -277,7 +277,7 @@
         "start_year": 1952,
         "end_year": 2022,
         "color": "red",
-        "trend_meantemp_yearly": 1.712253669778625
+        "trend_meantemp_yearly": 1.651175624414468
     },
     {
         "station_id": 83186,
@@ -287,7 +287,7 @@
         "start_year": 1892,
         "end_year": 2022,
         "color": "red",
-        "trend_meantemp_yearly": 2.281412098584724
+        "trend_meantemp_yearly": 2.4328976163347003
     },
     {
         "station_id": 83207,
@@ -297,7 +297,7 @@
         "start_year": 1901,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": -0.02106335485685568
+        "trend_meantemp_yearly": 0.021640655448587186
     },
     {
         "station_id": 83326,
@@ -307,7 +307,7 @@
         "start_year": 1960,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 2.9744787766272145
+        "trend_meantemp_yearly": 3.880167788798778
     },
     {
         "station_id": 83470,
@@ -317,7 +317,7 @@
         "start_year": 1919,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": -0.6186289266743188
+        "trend_meantemp_yearly": 1.7005937965589621
     },
     {
         "station_id": 83874,
@@ -327,7 +327,7 @@
         "start_year": 1978,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 3.954505537739656
+        "trend_meantemp_yearly": 3.939242839236771
     },
     {
         "station_id": 83909,
@@ -337,7 +337,7 @@
         "start_year": 1940,
         "end_year": 2022,
         "color": "red",
-        "trend_meantemp_yearly": 4.978435818416779
+        "trend_meantemp_yearly": 5.065716377068331
     },
     {
         "station_id": 83956,
@@ -347,7 +347,7 @@
         "start_year": 1944,
         "end_year": 2017,
         "color": "blue",
-        "trend_meantemp_yearly": -2.675730017140363
+        "trend_meantemp_yearly": 2.592914547514867
     },
     {
         "station_id": 83986,
@@ -357,7 +357,7 @@
         "start_year": 1943,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": -22.866487890300196
+        "trend_meantemp_yearly": 117.75408310059461
     },
     {
         "station_id": 84210,
@@ -367,7 +367,7 @@
         "start_year": 1970,
         "end_year": 2017,
         "color": "red",
-        "trend_meantemp_yearly": 0.8094154275667511
+        "trend_meantemp_yearly": 1.3998950231598506
     },
     {
         "station_id": 84289,
@@ -377,7 +377,7 @@
         "start_year": 1899,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 0.07544984606902451
+        "trend_meantemp_yearly": 0.23686823582092176
     },
     {
         "station_id": 84358,
@@ -387,7 +387,7 @@
         "start_year": 1948,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": -0.0829562469758231
+        "trend_meantemp_yearly": 0.21659002865401294
     },
     {
         "station_id": 84366,
@@ -397,7 +397,7 @@
         "start_year": 1944,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 3.2830359888686704
+        "trend_meantemp_yearly": 3.4316927608573535
     },
     {
         "station_id": 84394,
@@ -407,7 +407,7 @@
         "start_year": 1950,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": -0.7463566624119405
+        "trend_meantemp_yearly": 0.32711156597188906
     },
     {
         "station_id": 84570,
@@ -417,7 +417,7 @@
         "start_year": 1948,
         "end_year": 2022,
         "color": "red",
-        "trend_meantemp_yearly": 1.645763983871881
+        "trend_meantemp_yearly": 2.1469313770518457
     },
     {
         "station_id": 84625,
@@ -427,7 +427,7 @@
         "start_year": 1940,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 2.251978787170568
+        "trend_meantemp_yearly": 3.663077028483182
     },
     {
         "station_id": 84662,
@@ -437,7 +437,7 @@
         "start_year": 1929,
         "end_year": 2019,
         "color": "red",
-        "trend_meantemp_yearly": 1.508462107715977
+        "trend_meantemp_yearly": 0.5079540462779608
     },
     {
         "station_id": 84731,
@@ -447,7 +447,7 @@
         "start_year": 1892,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": -1.0083421447236247
+        "trend_meantemp_yearly": 0.9816089240974633
     },
     {
         "station_id": 85076,
@@ -457,7 +457,7 @@
         "start_year": 1958,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 0.36603703224498674
+        "trend_meantemp_yearly": 0.16771769476475415
     },
     {
         "station_id": 85099,
@@ -467,7 +467,7 @@
         "start_year": 1898,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 0.715537510162103
+        "trend_meantemp_yearly": 2.561706547949734
     },
     {
         "station_id": 85275,
@@ -477,7 +477,7 @@
         "start_year": 1892,
         "end_year": 2017,
         "color": "blue",
-        "trend_meantemp_yearly": -1.582437569371133
+        "trend_meantemp_yearly": 0.8286973000181752
     },
     {
         "station_id": 85539,
@@ -487,7 +487,7 @@
         "start_year": 1949,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 0.5172272658122956
+        "trend_meantemp_yearly": 0.5438657692083622
     },
     {
         "station_id": 85612,
@@ -497,7 +497,7 @@
         "start_year": 2010,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 1.7337657936988562
+        "trend_meantemp_yearly": 6.642366230618337
     },
     {
         "station_id": 85658,
@@ -507,7 +507,7 @@
         "start_year": 1927,
         "end_year": 2022,
         "color": "red",
-        "trend_meantemp_yearly": 0.7792915268258351
+        "trend_meantemp_yearly": 1.361461779692073
     },
     {
         "station_id": 85663,
@@ -517,7 +517,7 @@
         "start_year": 1948,
         "end_year": 2022,
         "color": "red",
-        "trend_meantemp_yearly": 4.386682674994115
+        "trend_meantemp_yearly": 4.386138558833093
     },
     {
         "station_id": 85879,
@@ -527,7 +527,7 @@
         "start_year": 1904,
         "end_year": 2016,
         "color": "blue",
-        "trend_meantemp_yearly": -1.2732018548657373
+        "trend_meantemp_yearly": 1.6915463690926855
     },
     {
         "station_id": 85880,
@@ -537,7 +537,7 @@
         "start_year": 2007,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 36.997197359881945
+        "trend_meantemp_yearly": 11.811523146350254
     },
     {
         "station_id": 85895,
@@ -547,7 +547,7 @@
         "start_year": 1918,
         "end_year": 2022,
         "color": "red",
-        "trend_meantemp_yearly": 1.3568564446459213
+        "trend_meantemp_yearly": 1.5719463612337798
     },
     {
         "station_id": 85973,
@@ -557,7 +557,7 @@
         "start_year": 1935,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 2.9710038213198455
+        "trend_meantemp_yearly": 2.9050348318074843
     },
     {
         "station_id": 86065,
@@ -567,7 +567,7 @@
         "start_year": 1943,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 4.365423698082432
+        "trend_meantemp_yearly": 4.545198015225862
     },
     {
         "station_id": 86078,
@@ -577,7 +577,7 @@
         "start_year": 1942,
         "end_year": 2022,
         "color": "red",
-        "trend_meantemp_yearly": -0.044754298256743354
+        "trend_meantemp_yearly": 0.48568138287815155
     },
     {
         "station_id": 86240,
@@ -587,7 +587,7 @@
         "start_year": 1927,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": -4.516004808377953
+        "trend_meantemp_yearly": 1.480261721459006
     },
     {
         "station_id": 86406,
@@ -597,7 +597,7 @@
         "start_year": 1978,
         "end_year": 2017,
         "color": "red",
-        "trend_meantemp_yearly": -1.0166280996056372
+        "trend_meantemp_yearly": 0.19419362918820532
     },
     {
         "station_id": 86414,
@@ -607,7 +607,7 @@
         "start_year": 1892,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 0.9306704694388872
+        "trend_meantemp_yearly": 1.169843680398581
     },
     {
         "station_id": 86485,
@@ -617,7 +617,7 @@
         "start_year": 1940,
         "end_year": 2010,
         "color": "orange",
-        "trend_meantemp_yearly": 2.7637507279322024
+        "trend_meantemp_yearly": 1.5678766771592139
     },
     {
         "station_id": 86628,
@@ -637,7 +637,7 @@
         "start_year": 1972,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 7.5289976870265285
+        "trend_meantemp_yearly": 7.435513549995656
     },
     {
         "station_id": 86880,
@@ -647,7 +647,7 @@
         "start_year": 1948,
         "end_year": 2017,
         "color": "orange",
-        "trend_meantemp_yearly": -0.18741119262978986
+        "trend_meantemp_yearly": 0.7464781226985698
     },
     {
         "station_id": 86997,
@@ -657,7 +657,7 @@
         "start_year": 1948,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 2.132973007715387
+        "trend_meantemp_yearly": 2.3458946162043066
     },
     {
         "station_id": 87020,
@@ -667,7 +667,7 @@
         "start_year": 1958,
         "end_year": 2022,
         "color": "red",
-        "trend_meantemp_yearly": 4.560300648290971
+        "trend_meantemp_yearly": 5.799734771693573
     },
     {
         "station_id": 87025,
@@ -677,7 +677,7 @@
         "start_year": 1897,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 0.5646977602746037
+        "trend_meantemp_yearly": 1.0664357235740813
     },
     {
         "station_id": 87205,
@@ -687,7 +687,7 @@
         "start_year": 1892,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 1.770160610097473
+        "trend_meantemp_yearly": 1.7583509096697696
     },
     {
         "station_id": 87397,
@@ -697,7 +697,7 @@
         "start_year": 1965,
         "end_year": 2021,
         "color": "red",
-        "trend_meantemp_yearly": 6.288178713555929
+        "trend_meantemp_yearly": 6.322472302594559
     },
     {
         "station_id": 87429,
@@ -707,7 +707,7 @@
         "start_year": 1968,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 3.322105952490278
+        "trend_meantemp_yearly": 4.593746795932019
     },
     {
         "station_id": 87760,
@@ -717,7 +717,7 @@
         "start_year": 1949,
         "end_year": 2022,
         "color": "red",
-        "trend_meantemp_yearly": 5.509303068984792
+        "trend_meantemp_yearly": 5.128639672523093
     },
     {
         "station_id": 87826,
@@ -727,7 +727,7 @@
         "start_year": 1973,
         "end_year": 2017,
         "color": "blue",
-        "trend_meantemp_yearly": 4.320585123265474
+        "trend_meantemp_yearly": 5.15352005427991
     },
     {
         "station_id": 87851,
@@ -737,7 +737,7 @@
         "start_year": 1895,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 1.288609077282967
+        "trend_meantemp_yearly": 1.4458082344993441
     },
     {
         "station_id": 87886,
@@ -747,7 +747,7 @@
         "start_year": 1892,
         "end_year": 2020,
         "color": "orange",
-        "trend_meantemp_yearly": 1.3607265659385532
+        "trend_meantemp_yearly": 1.8188282797587083
     },
     {
         "station_id": 87982,
@@ -757,7 +757,7 @@
         "start_year": 1956,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 3.5789448197503653
+        "trend_meantemp_yearly": 4.033521835492459
     },
     {
         "station_id": 88620,
@@ -767,7 +767,7 @@
         "start_year": 1935,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 0.6686693028461961
+        "trend_meantemp_yearly": 1.4044484934850887
     },
     {
         "station_id": 88758,
@@ -777,7 +777,7 @@
         "start_year": 1948,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 2.4604972624214034
+        "trend_meantemp_yearly": 2.6941938317924303
     },
     {
         "station_id": 88788,
@@ -797,7 +797,7 @@
         "start_year": 1892,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 1.5961538578224952
+        "trend_meantemp_yearly": 1.5408139894965434
     },
     {
         "station_id": 88942,
@@ -807,7 +807,7 @@
         "start_year": 1901,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 0.7656480956152366
+        "trend_meantemp_yearly": 0.8007299296298102
     },
     {
         "station_id": 89120,
@@ -817,7 +817,7 @@
         "start_year": 1956,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": 2.6535940776999882
+        "trend_meantemp_yearly": 3.1723534105805613
     },
     {
         "station_id": 89176,
@@ -827,7 +827,7 @@
         "start_year": 1927,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 5.032475166039797
+        "trend_meantemp_yearly": 4.608936651392348
     },
     {
         "station_id": 89214,
@@ -837,7 +837,7 @@
         "start_year": 1923,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 1.1651649261082717
+        "trend_meantemp_yearly": 1.2321133088390497
     },
     {
         "station_id": 89219,
@@ -847,7 +847,7 @@
         "start_year": 1965,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": 3.3300745880061253
+        "trend_meantemp_yearly": 4.127204737363222
     },
     {
         "station_id": 89401,
@@ -857,7 +857,7 @@
         "start_year": 1933,
         "end_year": 2022,
         "color": "orange",
-        "trend_meantemp_yearly": -0.10260086865024208
+        "trend_meantemp_yearly": 0.24804303112166162
     },
     {
         "station_id": 89430,
@@ -867,7 +867,7 @@
         "start_year": 1969,
         "end_year": 2017,
         "color": "orange",
-        "trend_meantemp_yearly": 7.357232011315083
+        "trend_meantemp_yearly": 6.9327732567578915
     },
     {
         "station_id": 89525,
@@ -877,7 +877,7 @@
         "start_year": 1938,
         "end_year": 2022,
         "color": "red",
-        "trend_meantemp_yearly": 2.246525520054973
+        "trend_meantemp_yearly": 2.2466892955959175
     },
     {
         "station_id": 89566,
@@ -887,6 +887,6 @@
         "start_year": 1901,
         "end_year": 2022,
         "color": "blue",
-        "trend_meantemp_yearly": -0.5667035916201115
+        "trend_meantemp_yearly": 0.5019066514083539
     }
 ]
