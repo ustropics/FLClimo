@@ -32,11 +32,11 @@ for filename in os.listdir(directory):
         # Convert the 'YEAR' column to integer type
         data['YEAR'] = data['YEAR'].astype(int)
 
-        # Convert 'MIN TEMP' column to numeric dtype
-        data['MIN TEMP'] = pd.to_numeric(data['MIN TEMP'], errors='coerce')
+        # Convert 'MAX TEMP' column to numeric dtype
+        data['MAX TEMP'] = pd.to_numeric(data['MAX TEMP'], errors='coerce')
 
         # Replace values outside the range of -50 to 150 with NaN
-        data.loc[~data['MIN TEMP'].between(-50, 150), 'MIN TEMP'] = np.nan
+        data.loc[~data['MAX TEMP'].between(-50, 150), 'MAX TEMP'] = np.nan
 
         # Remove any rows that contain NaN values
         data = data.dropna()
@@ -45,21 +45,21 @@ for filename in os.listdir(directory):
         min_days_per_year = 300
 
         # Filter the data to include only years with enough non-missing values
-        year_counts = data.groupby('YEAR')['MIN TEMP'].count()
+        year_counts = data.groupby('YEAR')['MAX TEMP'].count()
         valid_years = year_counts[year_counts >= min_days_per_year].index
         valid_data = data[data['YEAR'].isin(valid_years)]
 
-        # Convert the 'MIN TEMP' column to numeric type, replacing non-numeric values with NaN
-        valid_data['MIN TEMP'] = pd.to_numeric(valid_data['MIN TEMP'], errors='coerce')
+        # Convert the 'MAX TEMP' column to numeric type, replacing non-numeric values with NaN
+        valid_data['MAX TEMP'] = pd.to_numeric(valid_data['MAX TEMP'], errors='coerce')
 
         # Remove any rows that contain NaN values
         valid_data = valid_data.dropna()
 
         # Remove any mean values that are below 50F
-        valid_data = valid_data[valid_data['MIN TEMP'] >= -40]
+        valid_data = valid_data[valid_data['MAX TEMP'] >= -40]
 
         # Calculate the mean temperature for each year
-        mean_temps = valid_data.groupby('YEAR')['MIN TEMP'].mean()
+        mean_temps = valid_data.groupby('YEAR')['MAX TEMP'].mean()
 
         # Calculate the trend line
         z = np.polyfit(mean_temps.index, mean_temps.values, 1)
@@ -72,18 +72,18 @@ for filename in os.listdir(directory):
 
         for station in weather_stations:
             if station['station_name'] == station_name:
-                station['trend_mintemp_yearly'] = slope*100
+                station['trend_maxtemp_yearly'] = slope*100
                 break
 
         plt.figure(figsize=(16,9))
         plt.plot(mean_temps.index, mean_temps.values, 'o')
         plt.plot(mean_temps.index, p(mean_temps.index), 'r--')
-        plt.title('Minimum Temperature by Year - ' + station_name + ' (' + station_id + ')')
+        plt.title('Maximum Temperature by Year - ' + station_name + ' (' + station_id + ')')
         plt.xlabel('Year')
         plt.ylabel('Mean Temperature (°F)')
 
         # Save the plot as an image
-        plt.savefig('../static/img/plots/trends/mintemp_yearly/'+station_id+'_min_trend_yearly.png', dpi=300, bbox_inches='tight')
+        plt.savefig('../static/img/plots/trends/maxtemp_yearly/'+station_id+'_max_trend_yearly.png', dpi=300, bbox_inches='tight')
 
         # Close the plot to free up memory
         plt.close()

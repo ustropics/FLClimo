@@ -21,8 +21,7 @@ a:focus {
   background: #2b2b2b;
   border: none;
   border-radius: 0;
-  margin-bottom: 40px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* add box-shadow */
 }
 .navbar-btn {
   box-shadow: none;
@@ -114,9 +113,15 @@ a.download:hover {
   min-height: 100vh;
   transition: all 0.3s;
 }
-.content-wrapper {
-  padding: 15px;
+
+.content-wrapper > div {
+  display: none;
 }
+
+.content-wrapper > div.active {
+  display: block;
+}
+
 @media (maz-width: 768px) {
   #sidebar {
     margin-left: -250px;
@@ -133,8 +138,36 @@ a.download:hover {
   background: #0f0f0f;
 }
 
-#map_iframe {
+.map-iframe {
   border-width: 0;
-  margin-top: -55px;
-  margin-left: -15px;
+}
+
+.active-link {
+  border-bottom: 2px solid;
+  /* Change the colors to your desired gradient */
+}
+
+.sidebar-list-link {
+  color: rgb(146, 146, 146);
+}
+
+.content {
+  padding-right: 0px;
+}
+
+.custom-bg-dark {
+  background-color: #202123;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.zoom-in {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+}
+
+.zoom-in:hover {
+  transform: scale(1.1);
 }

@@ -1,27 +1,46 @@
-// Get references to DOM elements
-const menu = document.querySelector('.menu');
-const menuToggle = document.querySelector('.menu-toggle');
-const buttons = document.querySelectorAll('.button');
-const mainContent = document.querySelector('.main-content');
-
-// Add event listener to toggle menu visibility on click of menu toggle button
-menuToggle.addEventListener('click', () => {
-  menu.classList.toggle('collapsed');
+$(document).ready(function () {
+  $("#sidebarCollapse").on("click", function () {
+    $("#sidebar").toggleClass("active");
+  });
 });
 
-// Add event listeners to buttons to switch main content
-buttons.forEach(button => {
-  button.addEventListener('click', () => {
-    // Remove the 'active' class from all buttons
-    buttons.forEach(button => {
-      button.classList.remove('active');
+// get all the links
+const links = document.querySelectorAll('ul li a');
+
+// get all the divs
+const divs = document.querySelectorAll('.content-wrapper > div');
+
+// add click event listeners to each link
+for (let i = 0; i < links.length; i++) {
+  const link = links[i];
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    // remove active class from specific links
+    if (link.classList.contains('specific-link')) {
+      for (let j = 0; j < divs.length; j++) {
+        const div = divs[j];
+        div.classList.remove('active');
+      }
+    }
+    // add active class to the div that corresponds to the clicked link
+    const id = link.getAttribute('id').replace('-link', '-wrapper');
+    const divToShow = document.getElementById(id);
+    console.log(id)
+    divToShow.classList.add('active');
+  });
+}
+
+// Get all navigation links
+const navLinks = document.querySelectorAll('.nav-link');
+
+// Add click event listener to each link
+navLinks.forEach(link => {
+  link.addEventListener('click', function() {
+    // Remove "active" class from all links
+    navLinks.forEach(link => {
+      link.classList.remove('active');
     });
-
-    // Add the 'active' class to the clicked button
-    button.classList.add('active');
-
-    // Change the content based on the data-target attribute of the clicked button
-    const target = button.getAttribute('data-target');
-    mainContent.innerHTML = `<h2>${target}</h2><p>This is the ${target} content.</p>`;
+    // Add "active" class to clicked link
+    this.classList.add('active');
   });
 });
