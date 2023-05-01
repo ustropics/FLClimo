@@ -31,7 +31,7 @@ for location in locations:
     else:
         color = 'red'
         
-    popup_html = "<b>{station_name} ({station_id})</b><br>lat: {station_lat}, lon: {station_lon}<br><a href='../../static/img/plots/trends/meantemp_yearly/{station_id}_mean_trend_yearly.png'><img src='../../static/img/plots/trends/meantemp_yearly/{station_id}_mean_trend_yearly.png' width='100%' height='100%'></a>".format(
+    popup_html = "<b>{station_name} ({station_id})</b><br>lat: {station_lat}, lon: {station_lon}<br><a href='../../static/img/plots/trends/meantemp_yearly/{station_id}_mean_trend_yearly.png' target='_BLANK'><img src='../../static/img/plots/trends/meantemp_yearly/{station_id}_mean_trend_yearly.png' width='100%' height='100%'></a>".format(
         station_name=location['station_name'],
         station_id=location['station_id'],
         station_lat=location['station_lat'],

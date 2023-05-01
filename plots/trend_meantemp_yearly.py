@@ -72,7 +72,7 @@ for filename in os.listdir(directory):
 
         for station in weather_stations:
             if station['station_name'] == station_name:
-                station['trend_meantemp_yearly'] = abs(slope)*100
+                station['trend_meantemp_yearly'] = slope*100
                 break
 
         plt.figure(figsize=(16,9))
