@@ -78,7 +78,7 @@ for filename in os.listdir(directory):
         plt.figure(figsize=(16,9))
         plt.plot(mean_temps.index, mean_temps.values, 'o')
         plt.plot(mean_temps.index, p(mean_temps.index), 'r--')
-        plt.title('Minimum Temperature by Year - ' + station_name + ' (' + station_id + ')')
+        plt.title('Mean Temperature by Year - ' + station_name + ' (' + station_id + ')')
         plt.xlabel('Year')
         plt.ylabel('Mean Temperature (°F)')
 

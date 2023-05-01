@@ -24,11 +24,13 @@ for location in locations:
     trend = location['trend_meantemp_yearly']
     
     # Set the color of the marker based on the trend value
-    if trend < 0:
+    if trend < -2:
+        color = 'darkblue'
+    elif trend >= -2 and trend <= 0:
         color = 'blue'
-    elif trend >= 0 and trend <= 4:
+    elif trend >= 0 and trend <= 2:
         color = 'orange'
-    else:
+    elif trend > 2:
         color = 'red'
         
     popup_html = "<b>{station_name} ({station_id})</b><br>lat: {station_lat}, lon: {station_lon}<br><a href='../../static/img/plots/trends/meantemp_yearly/{station_id}_mean_trend_yearly.png' target='_BLANK'><img src='../../static/img/plots/trends/meantemp_yearly/{station_id}_mean_trend_yearly.png' width='100%' height='100%'></a>".format(
