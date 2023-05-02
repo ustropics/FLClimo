@@ -9,7 +9,30 @@
         "color": "blue",
         "trend_meantemp_yearly": 1.1461332767955645,
         "trend_mintemp_yearly": -2.53246247338327,
-        "trend_maxtemp_yearly": 5.305327382844127
+        "trend_maxtemp_yearly": 5.305327382844127,
+        "trend_precip_yearly": -0.3564028432335735,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": -0.2682584907289518,
+                "intercept": 588.2115345551019
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.03126641188153507,
+                "intercept": 129.61773534744296
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.05013027787731143,
+                "intercept": -30.87821739106726
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.058009776304509354,
+                "intercept": -47.069375683956295
+            }
+        ]
     },
     {
         "station_id": 80228,
@@ -21,7 +44,35 @@
         "color": "orange",
         "trend_meantemp_yearly": -0.28429736605889383,
         "trend_mintemp_yearly": -0.07451285068119241,
-        "trend_maxtemp_yearly": -0.3364958843900414
+        "trend_maxtemp_yearly": -0.3364958843900414,
+        "trend_precip_yearly": 0.15492842096456144,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": -0.0564589836581396,
+                "intercept": 179.8497886632025
+            },
+            {
+                "period": "1910-1940",
+                "slope": -0.007960364950778342,
+                "intercept": 88.2765918927897
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.05674936759719186,
+                "intercept": 183.47756953541065
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.017862419516778263,
+                "intercept": 36.975631554632
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.10887066072753147,
+                "intercept": -146.18219910619254
+            }
+        ]
     },
     {
         "station_id": 80236,
@@ -33,7 +84,25 @@
         "color": "orange",
         "trend_meantemp_yearly": 2.7036299164087905,
         "trend_mintemp_yearly": 3.450884813186432,
-        "trend_maxtemp_yearly": 3.0852230557247684
+        "trend_maxtemp_yearly": 3.0852230557247684,
+        "trend_precip_yearly": 2.694643903312025,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.034246575340830275,
+                "intercept": 138.39589040773714
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.00862289309215362,
+                "intercept": 54.887418227192555
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.1131445211893726,
+                "intercept": -154.9699544935834
+            }
+        ]
     },
     {
         "station_id": 80369,
@@ -45,7 +114,35 @@
         "color": "orange",
         "trend_meantemp_yearly": -0.3443747418256098,
         "trend_mintemp_yearly": -0.9867610132194914,
-        "trend_maxtemp_yearly": 0.30680368873519903
+        "trend_maxtemp_yearly": 0.30680368873519903,
+        "trend_precip_yearly": -0.4692072910062585,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": -0.09164275940170358,
+                "intercept": 247.3845297345866
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.033127578302728763,
+                "intercept": 9.337157902666311
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.014846864939065526,
+                "intercept": 102.60967528795493
+            },
+            {
+                "period": "1970-2000",
+                "slope": -0.014295871148514706,
+                "intercept": 100.80740968061305
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.12968420522927285,
+                "intercept": -187.49791893641125
+            }
+        ]
     },
     {
         "station_id": 80478,
@@ -57,7 +154,35 @@
         "color": "orange",
         "trend_meantemp_yearly": 1.6393813942917124,
         "trend_mintemp_yearly": 2.5066532598636195,
-        "trend_maxtemp_yearly": 0.9951922482088662
+        "trend_maxtemp_yearly": 0.9951922482088662,
+        "trend_precip_yearly": -1.056645477330269,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": 0.03683654365920531,
+                "intercept": 2.130098190561991
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.03328963800516644,
+                "intercept": 8.039228556439888
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.012680013203143364,
+                "intercept": 97.43183213866384
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.05848463040359146,
+                "intercept": -42.88594502809765
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.05182110173098764,
+                "intercept": -30.340655880623462
+            }
+        ]
     },
     {
         "station_id": 80611,
@@ -69,7 +194,30 @@
         "color": "red",
         "trend_meantemp_yearly": 2.3285421558694863,
         "trend_mintemp_yearly": 2.3345642480926947,
-        "trend_maxtemp_yearly": 2.3138385716409084
+        "trend_maxtemp_yearly": 2.3138385716409084,
+        "trend_precip_yearly": -2.927641323795595,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": 0.02199761719607559,
+                "intercept": 29.389469619012914
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.029698014606218712,
+                "intercept": 130.30637408302405
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.04235239179010753,
+                "intercept": -10.883191165187231
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.5938119673555461,
+                "intercept": -1114.350710667376
+            }
+        ]
     },
     {
         "station_id": 80945,
@@ -81,7 +229,25 @@
         "color": "orange",
         "trend_meantemp_yearly": 5.940527036021654,
         "trend_mintemp_yearly": 9.781704332120503,
-        "trend_maxtemp_yearly": 2.743968339162012
+        "trend_maxtemp_yearly": 2.743968339162012,
+        "trend_precip_yearly": 1.572809502905331,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": 0.24748663494675543,
+                "intercept": -415.2171164561196
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.058195147649942054,
+                "intercept": -42.90816824758207
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.13324559079435316,
+                "intercept": -193.99547732270958
+            }
+        ]
     },
     {
         "station_id": 81046,
@@ -93,7 +259,35 @@
         "color": "orange",
         "trend_meantemp_yearly": 0.14454617359515007,
         "trend_mintemp_yearly": 0.1637123210411337,
-        "trend_maxtemp_yearly": 0.3068954381673277
+        "trend_maxtemp_yearly": 0.3068954381673277,
+        "trend_precip_yearly": -1.8140374787181965,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": 0.13493517292816595,
+                "intercept": -185.58023993666168
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.02422605479265178,
+                "intercept": 25.135829413016044
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.037751277160403204,
+                "intercept": 145.30716140700443
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.00029336790617461765,
+                "intercept": 70.89311013946471
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.1805451747707767,
+                "intercept": -290.8762398099824
+            }
+        ]
     },
     {
         "station_id": 81163,
@@ -105,7 +299,30 @@
         "color": "orange",
         "trend_meantemp_yearly": 0.7938859571334786,
         "trend_mintemp_yearly": 2.565980264805918,
-        "trend_maxtemp_yearly": -0.7141281894840527
+        "trend_maxtemp_yearly": -0.7141281894840527,
+        "trend_precip_yearly": -1.550724524661875,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": -0.33007242651464086,
+                "intercept": 709.6553310152664
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.019519867133925263,
+                "intercept": 108.77716417017413
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.016291236073228986,
+                "intercept": 38.68227050582626
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.08844548904427961,
+                "intercept": -107.12220613325468
+            }
+        ]
     },
     {
         "station_id": 81276,
@@ -117,7 +334,25 @@
         "color": "red",
         "trend_meantemp_yearly": 5.35733047793575,
         "trend_mintemp_yearly": 8.646735465262436,
-        "trend_maxtemp_yearly": 2.064544743112027
+        "trend_maxtemp_yearly": 2.064544743112027,
+        "trend_precip_yearly": -2.611562403063907,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.04226443749467067,
+                "intercept": 155.42757329785815
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.04646987655545645,
+                "intercept": -18.552443314317042
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.19287659392240553,
+                "intercept": -312.7658534536261
+            }
+        ]
     },
     {
         "station_id": 81544,
@@ -129,7 +364,30 @@
         "color": "blue",
         "trend_meantemp_yearly": -0.537806147090913,
         "trend_mintemp_yearly": 0.5028420629313737,
-        "trend_maxtemp_yearly": 0.6626730302012707
+        "trend_maxtemp_yearly": 0.6626730302012707,
+        "trend_precip_yearly": 4.76203459955603,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": 0.016681240795287197,
+                "intercept": 32.3616071428572
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.029743174761149918,
+                "intercept": 125.83373166559387
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.00916282509821166,
+                "intercept": 47.848943124559916
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.08127459522105392,
+                "intercept": -95.74677558499937
+            }
+        ]
     },
     {
         "station_id": 81641,
@@ -141,7 +399,25 @@
         "color": "orange",
         "trend_meantemp_yearly": 1.9857330701961469,
         "trend_mintemp_yearly": 2.4461022942470274,
-        "trend_maxtemp_yearly": 2.368844794884115
+        "trend_maxtemp_yearly": 2.368844794884115,
+        "trend_precip_yearly": -0.34999415770707565,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.0769503907327747,
+                "intercept": 222.75874755503338
+            },
+            {
+                "period": "1970-2000",
+                "slope": -0.00047410761598274754,
+                "intercept": 72.92685815520025
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.19471183410187157,
+                "intercept": -318.5588670307881
+            }
+        ]
     },
     {
         "station_id": 81978,
@@ -153,7 +429,30 @@
         "color": "blue",
         "trend_meantemp_yearly": 0.13989224501159983,
         "trend_mintemp_yearly": 1.6098691702089898,
-        "trend_maxtemp_yearly": -0.8721933861904917
+        "trend_maxtemp_yearly": -0.8721933861904917,
+        "trend_precip_yearly": -0.9435254675779378,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": -0.02072804502853682,
+                "intercept": 111.03642491730876
+            },
+            {
+                "period": "1940-1970",
+                "slope": 0.10618787589238189,
+                "intercept": -135.75741005985859
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.066799347115843,
+                "intercept": -61.30075450784803
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.07656129797082942,
+                "intercept": -82.92060753385856
+            }
+        ]
     },
     {
         "station_id": 81986,
@@ -165,7 +464,25 @@
         "color": "blue",
         "trend_meantemp_yearly": 0.4472790500221879,
         "trend_mintemp_yearly": -1.0956912296350836,
-        "trend_maxtemp_yearly": 2.6858836463109768
+        "trend_maxtemp_yearly": 2.6858836463109768,
+        "trend_precip_yearly": -0.9296394736825185,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.40481025318439157,
+                "intercept": 857.2178984971558
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.1278916775747873,
+                "intercept": -187.33811188768524
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.132994645673175,
+                "intercept": -200.44879697048364
+            }
+        ]
     },
     {
         "station_id": 82008,
@@ -177,7 +494,25 @@
         "color": "blue",
         "trend_meantemp_yearly": 0.8952337064288794,
         "trend_mintemp_yearly": 2.3380656466055814,
-        "trend_maxtemp_yearly": -0.27990392650491225
+        "trend_maxtemp_yearly": -0.27990392650491225,
+        "trend_precip_yearly": 3.46124427062916,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.11861061021091628,
+                "intercept": 300.6889874952592
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.02865868060897846,
+                "intercept": 10.604835908258222
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.11749902185704951,
+                "intercept": -167.60237260527273
+            }
+        ]
     },
     {
         "station_id": 82150,
@@ -189,7 +524,25 @@
         "color": "blue",
         "trend_meantemp_yearly": 1.2221839501444705,
         "trend_mintemp_yearly": 1.9914158583965755,
-        "trend_maxtemp_yearly": 0.6823021362420889
+        "trend_maxtemp_yearly": 0.6823021362420889,
+        "trend_precip_yearly": 2.7109936160271104,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": -0.08034701971982049,
+                "intercept": 226.26702451446226
+            },
+            {
+                "period": "1940-1970",
+                "slope": 0.006401669184653774,
+                "intercept": 58.41402761272758
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.17574240783384062,
+                "intercept": -281.5135172321719
+            }
+        ]
     },
     {
         "station_id": 82158,
@@ -201,7 +554,25 @@
         "color": "blue",
         "trend_meantemp_yearly": 3.1180266692645717,
         "trend_mintemp_yearly": 4.301473184569994,
-        "trend_maxtemp_yearly": 2.395977483469029
+        "trend_maxtemp_yearly": 2.395977483469029,
+        "trend_precip_yearly": 1.1431772383881964,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.034956422562587054,
+                "intercept": 138.68651874160247
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.014962276873425339,
+                "intercept": 41.17145863655874
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.10078867799819317,
+                "intercept": -130.8497422577671
+            }
+        ]
     },
     {
         "station_id": 82220,
@@ -213,7 +584,35 @@
         "color": "blue",
         "trend_meantemp_yearly": -0.8588248298471135,
         "trend_mintemp_yearly": -1.6057434645929558,
-        "trend_maxtemp_yearly": -0.19447837180570232
+        "trend_maxtemp_yearly": -0.19447837180570232,
+        "trend_precip_yearly": -0.7140497915768685,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": 0.06661000456601691,
+                "intercept": -59.89021933866552
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.03375978401980159,
+                "intercept": 2.873267047799193
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.11251659595699363,
+                "intercept": 287.69668412235177
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.021853874279013814,
+                "intercept": 23.259304878050006
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.0422498634904415,
+                "intercept": -17.47513706547392
+            }
+        ]
     },
     {
         "station_id": 82229,
@@ -225,7 +624,35 @@
         "color": "blue",
         "trend_meantemp_yearly": -0.15123789873485252,
         "trend_mintemp_yearly": 0.37922956548325176,
-        "trend_maxtemp_yearly": -0.3332826397187497
+        "trend_maxtemp_yearly": -0.3332826397187497,
+        "trend_precip_yearly": 1.2294948212316579,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": -0.06439815126607679,
+                "intercept": 192.27378822580337
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.048181409663628695,
+                "intercept": -21.68076562352888
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.036791073331649646,
+                "intercept": 142.89285157927202
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.0706467839602555,
+                "intercept": -70.08845532217376
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.07621112349047057,
+                "intercept": -82.34117006142901
+            }
+        ]
     },
     {
         "station_id": 82298,
@@ -237,7 +664,25 @@
         "color": "red",
         "trend_meantemp_yearly": 2.743131316953175,
         "trend_mintemp_yearly": 2.6820534375133107,
-        "trend_maxtemp_yearly": 3.688714687861086
+        "trend_maxtemp_yearly": 3.688714687861086,
+        "trend_precip_yearly": -2.3943574751741212,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.03795696066445476,
+                "intercept": 147.38694079302778
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.041702450581885556,
+                "intercept": -9.696784936354636
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.018138037792246237,
+                "intercept": 37.83188900166226
+            }
+        ]
     },
     {
         "station_id": 82850,
@@ -249,7 +694,30 @@
         "color": "red",
         "trend_meantemp_yearly": 0.060976150345371447,
         "trend_mintemp_yearly": 1.986649675954269,
-        "trend_maxtemp_yearly": -1.4686385569127145
+        "trend_maxtemp_yearly": -1.4686385569127145,
+        "trend_precip_yearly": 1.236812512827202,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": 0.02684452861538592,
+                "intercept": 22.96970885005277
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.07155424006811015,
+                "intercept": 214.75056136205342
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.05882790877375509,
+                "intercept": -42.60343589709458
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.08089693324385337,
+                "intercept": -86.85703087868929
+            }
+        ]
     },
     {
         "station_id": 82915,
@@ -261,7 +729,35 @@
         "color": "blue",
         "trend_meantemp_yearly": 0.273920244473203,
         "trend_mintemp_yearly": 1.45368195861277,
-        "trend_maxtemp_yearly": -0.4868451438142006
+        "trend_maxtemp_yearly": -0.4868451438142006,
+        "trend_precip_yearly": -0.5918592705639972,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": 0.07301987991808723,
+                "intercept": -69.36314534917186
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.010631359968451945,
+                "intercept": 50.43379305856259
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.052373711755520344,
+                "intercept": 172.6611559006072
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.07821250600575898,
+                "intercept": -85.27766866407535
+            },
+            {
+                "period": "2000-2022",
+                "slope": -0.029099152730924498,
+                "intercept": 129.16765649803057
+            }
+        ]
     },
     {
         "station_id": 82944,
@@ -273,7 +769,35 @@
         "color": "blue",
         "trend_meantemp_yearly": -0.2538820467045462,
         "trend_mintemp_yearly": -0.12829113214812757,
-        "trend_maxtemp_yearly": -0.19017278969902882
+        "trend_maxtemp_yearly": -0.19017278969902882,
+        "trend_precip_yearly": 0.9679121441837767,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": 0.05860813962232101,
+                "intercept": -43.131555739253145
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.02887346522462727,
+                "intercept": 13.794679985189168
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.07714417068785587,
+                "intercept": 220.06588066224154
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.0287570623423438,
+                "intercept": 11.36209149330019
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.19988001719725587,
+                "intercept": -331.810997061785
+            }
+        ]
     },
     {
         "station_id": 83020,
@@ -285,7 +809,25 @@
         "color": "red",
         "trend_meantemp_yearly": 4.435549229920967,
         "trend_mintemp_yearly": 4.922590025409558,
-        "trend_maxtemp_yearly": 4.275867867352432
+        "trend_maxtemp_yearly": 4.275867867352432,
+        "trend_precip_yearly": -0.8654652958564044,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.14317990693029198,
+                "intercept": 355.9342717679578
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.05606683307063805,
+                "intercept": -36.20522500669263
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.03828790181473985,
+                "intercept": -0.7318975417021077
+            }
+        ]
     },
     {
         "station_id": 83137,
@@ -297,7 +839,25 @@
         "color": "orange",
         "trend_meantemp_yearly": 1.61817143561566,
         "trend_mintemp_yearly": 2.90871186514041,
-        "trend_maxtemp_yearly": 0.14418426753864425
+        "trend_maxtemp_yearly": 0.14418426753864425,
+        "trend_precip_yearly": 7.065512552713762,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.19787319088684763,
+                "intercept": 460.25825910650707
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.018630196655367994,
+                "intercept": 35.48330703118556
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.5829959166492381,
+                "intercept": -1094.8247014762574
+            }
+        ]
     },
     {
         "station_id": 83153,
@@ -309,7 +869,15 @@
         "color": "orange",
         "trend_meantemp_yearly": 12.590352465119345,
         "trend_mintemp_yearly": 15.353727473086371,
-        "trend_maxtemp_yearly": 11.77984801235756
+        "trend_maxtemp_yearly": 11.77984801235756,
+        "trend_precip_yearly": 2.9805379457757044,
+        "trend_lines": [
+            {
+                "period": "2000-2022",
+                "slope": 0.1248327785972906,
+                "intercept": -179.0217289221329
+            }
+        ]
     },
     {
         "station_id": 83163,
@@ -321,7 +889,30 @@
         "color": "red",
         "trend_meantemp_yearly": 1.30555562398446,
         "trend_mintemp_yearly": 3.3177320419300855,
-        "trend_maxtemp_yearly": -0.47855223158679105
+        "trend_maxtemp_yearly": -0.47855223158679105,
+        "trend_precip_yearly": 1.7715459845225288,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": 0.019891471834665747,
+                "intercept": 36.961245100438006
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.027650984168136706,
+                "intercept": 129.09035478932105
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.06678661071160986,
+                "intercept": -56.8161067149256
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.05127645935483146,
+                "intercept": -26.848151222352435
+            }
+        ]
     },
     {
         "station_id": 83168,
@@ -333,7 +924,25 @@
         "color": "red",
         "trend_meantemp_yearly": 1.651175624414468,
         "trend_mintemp_yearly": 1.7504752485654005,
-        "trend_maxtemp_yearly": 2.3022175185332583
+        "trend_maxtemp_yearly": 2.3022175185332583,
+        "trend_precip_yearly": 0.9239150753203871,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": 0.03468833640249083,
+                "intercept": 7.799406235570036
+            },
+            {
+                "period": "1970-2000",
+                "slope": -0.6627824052910088,
+                "intercept": 1401.317206748147
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.0866713340034532,
+                "intercept": -97.64075486613069
+            }
+        ]
     },
     {
         "station_id": 83186,
@@ -345,7 +954,35 @@
         "color": "red",
         "trend_meantemp_yearly": 2.4328976163347003,
         "trend_mintemp_yearly": 2.125345173056312,
-        "trend_maxtemp_yearly": 2.7742860430060214
+        "trend_maxtemp_yearly": 2.7742860430060214,
+        "trend_precip_yearly": 0.578824592027303,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": -0.016927207833611655,
+                "intercept": 104.81569268859947
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.03628616325280824,
+                "intercept": 3.9851318518660683
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.013320384954387672,
+                "intercept": 99.83558808949724
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.05609241145614068,
+                "intercept": -36.38525405532022
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.13551963614700382,
+                "intercept": -196.92426418648336
+            }
+        ]
     },
     {
         "station_id": 83207,
@@ -357,7 +994,35 @@
         "color": "orange",
         "trend_meantemp_yearly": 0.021640655448587186,
         "trend_mintemp_yearly": -1.049716272497369,
-        "trend_maxtemp_yearly": 1.3051792113656808
+        "trend_maxtemp_yearly": 1.3051792113656808,
+        "trend_precip_yearly": 0.8552875902715519,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": 0.08400182153604455,
+                "intercept": -87.71481293799721
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.02594639783772561,
+                "intercept": 24.11316352412941
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.0941210371757769,
+                "intercept": 257.21354974333497
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.0050130661244832155,
+                "intercept": 63.39938649104983
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.08127756702094496,
+                "intercept": -89.59413329418105
+            }
+        ]
     },
     {
         "station_id": 83326,
@@ -369,7 +1034,25 @@
         "color": "blue",
         "trend_meantemp_yearly": 3.880167788798778,
         "trend_mintemp_yearly": 3.4295570859856293,
-        "trend_maxtemp_yearly": 4.344459056517653
+        "trend_maxtemp_yearly": 4.344459056517653,
+        "trend_precip_yearly": -1.1417782802381362,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": 0.009530560428788856,
+                "intercept": 49.467932344998346
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.023797636112841004,
+                "intercept": 21.67330947447289
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.11519077555277223,
+                "intercept": -161.91518354248228
+            }
+        ]
     },
     {
         "station_id": 83470,
@@ -381,7 +1064,30 @@
         "color": "blue",
         "trend_meantemp_yearly": -1.7005937965589621,
         "trend_mintemp_yearly": -0.8951628920902346,
-        "trend_maxtemp_yearly": -1.870555613109622
+        "trend_maxtemp_yearly": -1.870555613109622,
+        "trend_precip_yearly": 0.41102944992873863,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": 0.03419180139635712,
+                "intercept": 2.1381042641485863
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.04868528223850876,
+                "intercept": 163.23164940255117
+            },
+            {
+                "period": "1970-2000",
+                "slope": -0.02492554509392916,
+                "intercept": 116.65853518999205
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.046758764939360084,
+                "intercept": -26.559743378577586
+            }
+        ]
     },
     {
         "station_id": 83874,
@@ -393,7 +1099,20 @@
         "color": "blue",
         "trend_meantemp_yearly": 3.939242839236771,
         "trend_mintemp_yearly": 3.788805189243352,
-        "trend_maxtemp_yearly": 4.123068490770745
+        "trend_maxtemp_yearly": 4.123068490770745,
+        "trend_precip_yearly": 3.135146768717732,
+        "trend_lines": [
+            {
+                "period": "1970-2000",
+                "slope": 0.06003441939637604,
+                "intercept": -50.453032678461135
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.10605341063404358,
+                "intercept": -143.7999848187357
+            }
+        ]
     },
     {
         "station_id": 83909,
@@ -405,7 +1124,25 @@
         "color": "red",
         "trend_meantemp_yearly": 5.065716377068331,
         "trend_mintemp_yearly": 8.251072597532353,
-        "trend_maxtemp_yearly": 1.8957073360220333
+        "trend_maxtemp_yearly": 1.8957073360220333,
+        "trend_precip_yearly": 5.172958529424411,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.04840293852832632,
+                "intercept": 168.91664991116625
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.12159377627577474,
+                "intercept": -164.7966103235607
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.009674093252213328,
+                "intercept": 57.5893094990976
+            }
+        ]
     },
     {
         "station_id": 83956,
@@ -417,7 +1154,25 @@
         "color": "blue",
         "trend_meantemp_yearly": -2.592914547514867,
         "trend_mintemp_yearly": -3.2859349700378773,
-        "trend_maxtemp_yearly": -1.8645724727556077
+        "trend_maxtemp_yearly": -1.8645724727556077,
+        "trend_precip_yearly": -0.5330828547520026,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.1254264875630836,
+                "intercept": 315.0632635689681
+            },
+            {
+                "period": "1970-2000",
+                "slope": -0.0292555310661946,
+                "intercept": 127.57923954925329
+            },
+            {
+                "period": "2000-2022",
+                "slope": -0.047778787811460416,
+                "intercept": 164.43246142783693
+            }
+        ]
     },
     {
         "station_id": 83986,
@@ -429,7 +1184,15 @@
         "color": "orange",
         "trend_meantemp_yearly": 117.75408310059461,
         "trend_mintemp_yearly": 109.03431763765028,
-        "trend_maxtemp_yearly": 79.92345453031275
+        "trend_maxtemp_yearly": 79.92345453031275,
+        "trend_precip_yearly": -0.42738365611675855,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": 1.177540831002957,
+                "intercept": -2218.3126427964803
+            }
+        ]
     },
     {
         "station_id": 84210,
@@ -441,7 +1204,20 @@
         "color": "red",
         "trend_meantemp_yearly": 1.3998950231598506,
         "trend_mintemp_yearly": 3.3279378935560664,
-        "trend_maxtemp_yearly": 0.7823250270959039
+        "trend_maxtemp_yearly": 0.7823250270959039,
+        "trend_precip_yearly": -4.071593197795998,
+        "trend_lines": [
+            {
+                "period": "1970-2000",
+                "slope": 0.0398026260516446,
+                "intercept": -5.100728510497965
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.1156427593978166,
+                "intercept": -158.39335536130184
+            }
+        ]
     },
     {
         "station_id": 84289,
@@ -453,7 +1229,35 @@
         "color": "orange",
         "trend_meantemp_yearly": 0.23686823582092176,
         "trend_mintemp_yearly": -1.3714359863595114,
-        "trend_maxtemp_yearly": 1.9375021379164188
+        "trend_maxtemp_yearly": 1.9375021379164188,
+        "trend_precip_yearly": -0.2623104273801376,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": -0.05528118683888547,
+                "intercept": 175.04638114341256
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.05452404905028704,
+                "intercept": -33.57581501790279
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.07339187425898298,
+                "intercept": 215.26548413190605
+            },
+            {
+                "period": "1970-2000",
+                "slope": -0.045082269780915306,
+                "intercept": 159.85908969493676
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.1490963138203202,
+                "intercept": -228.87378364252652
+            }
+        ]
     },
     {
         "station_id": 84358,
@@ -465,7 +1269,25 @@
         "color": "blue",
         "trend_meantemp_yearly": -0.21659002865401294,
         "trend_mintemp_yearly": -1.1551170965922224,
-        "trend_maxtemp_yearly": 0.7398361544980305
+        "trend_maxtemp_yearly": 0.7398361544980305,
+        "trend_precip_yearly": -0.2507596109766714,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.09662918095446173,
+                "intercept": 258.79401960801727
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.025886946220119156,
+                "intercept": 17.171234703020748
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.11279317461706748,
+                "intercept": -157.73155768117036
+            }
+        ]
     },
     {
         "station_id": 84366,
@@ -477,7 +1299,25 @@
         "color": "blue",
         "trend_meantemp_yearly": 3.4316927608573535,
         "trend_mintemp_yearly": 5.8796994719598725,
-        "trend_maxtemp_yearly": 0.9638721531909561
+        "trend_maxtemp_yearly": 0.9638721531909561,
+        "trend_precip_yearly": 0.3815408528004675,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.08498550115429163,
+                "intercept": 235.301086289354
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.00827777269952724,
+                "intercept": 53.129268193846265
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.1935002043657672,
+                "intercept": -318.2965618493007
+            }
+        ]
     },
     {
         "station_id": 84394,
@@ -489,7 +1329,25 @@
         "color": "blue",
         "trend_meantemp_yearly": -0.32711156597188906,
         "trend_mintemp_yearly": 1.5721138316632997,
-        "trend_maxtemp_yearly": -2.7000284563157666
+        "trend_maxtemp_yearly": -2.7000284563157666,
+        "trend_precip_yearly": -0.5835768494304726,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": 0.05622378017323492,
+                "intercept": -42.857756406309434
+            },
+            {
+                "period": "1970-2000",
+                "slope": -0.0038373478015395444,
+                "intercept": 74.66001979971315
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.020705188818566308,
+                "intercept": 25.45596065793324
+            }
+        ]
     },
     {
         "station_id": 84570,
@@ -501,7 +1359,25 @@
         "color": "red",
         "trend_meantemp_yearly": 2.1469313770518457,
         "trend_mintemp_yearly": 2.7785181597958073,
-        "trend_maxtemp_yearly": 1.5156355818569553
+        "trend_maxtemp_yearly": 1.5156355818569553,
+        "trend_precip_yearly": 0.3641565342031592,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.005442959963272791,
+                "intercept": 88.16374594696336
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.011399765918827768,
+                "intercept": 55.39677621484234
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.09443985935305885,
+                "intercept": -111.38438255909874
+            }
+        ]
     },
     {
         "station_id": 84625,
@@ -513,7 +1389,25 @@
         "color": "orange",
         "trend_meantemp_yearly": 3.663077028483182,
         "trend_mintemp_yearly": 3.4375361232314052,
-        "trend_maxtemp_yearly": 2.1952689646956856
+        "trend_maxtemp_yearly": 2.1952689646956856,
+        "trend_precip_yearly": 1.4481774258774642,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.10571772727521016,
+                "intercept": 279.5354779637962
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.02985113971752213,
+                "intercept": 13.505894016933325
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.18849695481595602,
+                "intercept": -305.80820440926095
+            }
+        ]
     },
     {
         "station_id": 84662,
@@ -525,7 +1419,30 @@
         "color": "red",
         "trend_meantemp_yearly": 0.5079540462779608,
         "trend_mintemp_yearly": 0.7069632025967655,
-        "trend_maxtemp_yearly": 0.28555721080253826
+        "trend_maxtemp_yearly": 0.28555721080253826,
+        "trend_precip_yearly": 0.6355311790595742,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": -0.05621885378646456,
+                "intercept": 181.80962664687806
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.02427203054451943,
+                "intercept": 120.69697204976674
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.03097033619841314,
+                "intercept": 11.713141120227885
+            },
+            {
+                "period": "2000-2022",
+                "slope": -0.010553254717570093,
+                "intercept": 94.91862850286321
+            }
+        ]
     },
     {
         "station_id": 84731,
@@ -537,7 +1454,35 @@
         "color": "blue",
         "trend_meantemp_yearly": -0.9816089240974633,
         "trend_mintemp_yearly": -1.0121006055550128,
-        "trend_maxtemp_yearly": -0.8408374148664622
+        "trend_maxtemp_yearly": -0.8408374148664622,
+        "trend_precip_yearly": 1.2176118109378393,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": -0.12421899211291361,
+                "intercept": 305.6649740001407
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.02862547832681509,
+                "intercept": 14.057004549055446
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.05391322134634611,
+                "intercept": 174.0785540965453
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.03978424858600087,
+                "intercept": -10.76687775537763
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.011498473296777785,
+                "intercept": 45.503361685729345
+            }
+        ]
     },
     {
         "station_id": 85076,
@@ -549,7 +1494,25 @@
         "color": "orange",
         "trend_meantemp_yearly": 0.16771769476475415,
         "trend_mintemp_yearly": 2.4042245927172723,
-        "trend_maxtemp_yearly": -2.064569730767154
+        "trend_maxtemp_yearly": -2.064569730767154,
+        "trend_precip_yearly": 0.10677651795645055,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.10901310111301019,
+                "intercept": 284.83236821279024
+            },
+            {
+                "period": "1970-2000",
+                "slope": -0.04298343001182312,
+                "intercept": 156.13382288403866
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.09189224706717458,
+                "intercept": -113.88124297608853
+            }
+        ]
     },
     {
         "station_id": 85099,
@@ -561,7 +1524,35 @@
         "color": "blue",
         "trend_meantemp_yearly": 2.561706547949734,
         "trend_mintemp_yearly": 1.9807844164510293,
-        "trend_maxtemp_yearly": 2.976157216847399
+        "trend_maxtemp_yearly": 2.976157216847399,
+        "trend_precip_yearly": -0.5871379100775677,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": 0.018308345232428986,
+                "intercept": 34.96893939393945
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.03372118264074291,
+                "intercept": 4.851550977565964
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.06663452725021346,
+                "intercept": 198.89250813626728
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.049973702725106296,
+                "intercept": -29.777026716541883
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.1309120488335482,
+                "intercept": -192.61888467541502
+            }
+        ]
     },
     {
         "station_id": 85275,
@@ -573,7 +1564,35 @@
         "color": "blue",
         "trend_meantemp_yearly": -0.8286973000181752,
         "trend_mintemp_yearly": -1.6196754716796664,
-        "trend_maxtemp_yearly": -0.012970989667615429
+        "trend_maxtemp_yearly": -0.012970989667615429,
+        "trend_precip_yearly": 0.23381958672520686,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": 0.04906547098868189,
+                "intercept": -25.16772463004406
+            },
+            {
+                "period": "1910-1940",
+                "slope": -0.00574677160950968,
+                "intercept": 79.87165168694592
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.030618981436195018,
+                "intercept": 128.35657813973162
+            },
+            {
+                "period": "1970-2000",
+                "slope": -0.022676335337550778,
+                "intercept": 113.40871951876467
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.07640022491559788,
+                "intercept": -85.37054420939073
+            }
+        ]
     },
     {
         "station_id": 85539,
@@ -585,7 +1604,25 @@
         "color": "blue",
         "trend_meantemp_yearly": 0.5438657692083622,
         "trend_mintemp_yearly": 0.24507404177233427,
-        "trend_maxtemp_yearly": 0.9326676807610288
+        "trend_maxtemp_yearly": 0.9326676807610288,
+        "trend_precip_yearly": -0.10398746164329113,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.1207945794441978,
+                "intercept": 304.78763183506595
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.021481484860034025,
+                "intercept": 25.70717097808906
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.06595281705585876,
+                "intercept": -64.20683937533057
+            }
+        ]
     },
     {
         "station_id": 85612,
@@ -597,7 +1634,15 @@
         "color": "orange",
         "trend_meantemp_yearly": 6.642366230618337,
         "trend_mintemp_yearly": 20.430831454775145,
-        "trend_maxtemp_yearly": -7.304676798353406
+        "trend_maxtemp_yearly": -7.304676798353406,
+        "trend_precip_yearly": 10.031407996980098,
+        "trend_lines": [
+            {
+                "period": "2000-2022",
+                "slope": 0.06816504496427063,
+                "intercept": -63.47819163163132
+            }
+        ]
     },
     {
         "station_id": 85658,
@@ -609,7 +1654,30 @@
         "color": "red",
         "trend_meantemp_yearly": 1.361461779692073,
         "trend_mintemp_yearly": 0.8328536694569946,
-        "trend_maxtemp_yearly": 1.6446546238848532
+        "trend_maxtemp_yearly": 1.6446546238848532,
+        "trend_precip_yearly": 5.628825566443215,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": -0.15393574266032567,
+                "intercept": 372.42303987128855
+            },
+            {
+                "period": "1940-1970",
+                "slope": 0.00936584943035697,
+                "intercept": 58.03048467667602
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.05596385235443018,
+                "intercept": -34.546267767837186
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.045450883118968416,
+                "intercept": -14.519526291137435
+            }
+        ]
     },
     {
         "station_id": 85663,
@@ -621,7 +1689,25 @@
         "color": "red",
         "trend_meantemp_yearly": 4.386138558833093,
         "trend_mintemp_yearly": 5.343378004801058,
-        "trend_maxtemp_yearly": 3.428899112865105
+        "trend_maxtemp_yearly": 3.428899112865105,
+        "trend_precip_yearly": 4.746151556275431,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.03439679184460147,
+                "intercept": 142.91257288566766
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.05457567069146799,
+                "intercept": -31.771277072841325
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.09874332096977176,
+                "intercept": -120.77728516587032
+            }
+        ]
     },
     {
         "station_id": 85879,
@@ -633,7 +1719,35 @@
         "color": "blue",
         "trend_meantemp_yearly": -1.6915463690926855,
         "trend_mintemp_yearly": -2.3686910949277347,
-        "trend_maxtemp_yearly": -1.0368987301463428
+        "trend_maxtemp_yearly": -1.0368987301463428,
+        "trend_precip_yearly": 1.3994275728480554,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": 0.005422051375934274,
+                "intercept": 57.853653528977894
+            },
+            {
+                "period": "1910-1940",
+                "slope": -0.08700947409679233,
+                "intercept": 235.44262418080217
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.0748206978001702,
+                "intercept": 213.58967532470442
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.04479804472914316,
+                "intercept": -22.802050827356567
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.09362910090370874,
+                "intercept": -120.26625021546153
+            }
+        ]
     },
     {
         "station_id": 85880,
@@ -645,7 +1759,15 @@
         "color": "blue",
         "trend_meantemp_yearly": 11.811523146350254,
         "trend_mintemp_yearly": 22.21109442226533,
-        "trend_maxtemp_yearly": 1.6224946739856208
+        "trend_maxtemp_yearly": 1.6224946739856208,
+        "trend_precip_yearly": -2.6924929061540914,
+        "trend_lines": [
+            {
+                "period": "2000-2022",
+                "slope": 0.11831772527847231,
+                "intercept": -170.02289173468208
+            }
+        ]
     },
     {
         "station_id": 85895,
@@ -657,7 +1779,30 @@
         "color": "red",
         "trend_meantemp_yearly": 1.5719463612337798,
         "trend_mintemp_yearly": 2.3202079608020134,
-        "trend_maxtemp_yearly": 0.9445058961645902
+        "trend_maxtemp_yearly": 0.9445058961645902,
+        "trend_precip_yearly": -1.0380023079613832,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": -0.010774097454232823,
+                "intercept": 93.73387888428101
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.0324998878735195,
+                "intercept": 136.60225160933604
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.03781160688137748,
+                "intercept": -1.6790869702254136
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.11270222681881933,
+                "intercept": -152.20299570702883
+            }
+        ]
     },
     {
         "station_id": 85973,
@@ -669,7 +1814,30 @@
         "color": "orange",
         "trend_meantemp_yearly": 2.9050348318074843,
         "trend_mintemp_yearly": 2.9728481745932736,
-        "trend_maxtemp_yearly": 2.861163160394301
+        "trend_maxtemp_yearly": 2.861163160394301,
+        "trend_precip_yearly": 0.10858856013674661,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": -0.10507120191975156,
+                "intercept": 275.7272474188398
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.021996219407118607,
+                "intercept": 115.16384528039315
+            },
+            {
+                "period": "1970-2000",
+                "slope": -0.010519753075947585,
+                "intercept": 93.50435627726029
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.13216770520837137,
+                "intercept": -191.49891032736258
+            }
+        ]
     },
     {
         "station_id": 86065,
@@ -681,7 +1849,25 @@
         "color": "orange",
         "trend_meantemp_yearly": 4.545198015225862,
         "trend_mintemp_yearly": 5.402096907576123,
-        "trend_maxtemp_yearly": 3.8044119451239653
+        "trend_maxtemp_yearly": 3.8044119451239653,
+        "trend_precip_yearly": 2.7792965329881016,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.12894561169434768,
+                "intercept": 324.22066265741705
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.0709733743422792,
+                "intercept": -67.66476971927703
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.07875558385810562,
+                "intercept": -84.70777087523969
+            }
+        ]
     },
     {
         "station_id": 86078,
@@ -693,7 +1879,25 @@
         "color": "red",
         "trend_meantemp_yearly": 0.48568138287815155,
         "trend_mintemp_yearly": -0.24713663414046988,
-        "trend_maxtemp_yearly": 1.2110567725122356
+        "trend_maxtemp_yearly": 1.2110567725122356,
+        "trend_precip_yearly": 4.810118505835867,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.10092183589220609,
+                "intercept": 271.9854132511317
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.0373647800634476,
+                "intercept": 0.544541262266452
+            },
+            {
+                "period": "2000-2022",
+                "slope": -0.03039439896083793,
+                "intercept": 136.0796366559541
+            }
+        ]
     },
     {
         "station_id": 86240,
@@ -705,7 +1909,30 @@
         "color": "blue",
         "trend_meantemp_yearly": -1.480261721459006,
         "trend_mintemp_yearly": -0.08561408185039218,
-        "trend_maxtemp_yearly": -2.517878289984373
+        "trend_maxtemp_yearly": -2.517878289984373,
+        "trend_precip_yearly": 3.5012597476495086,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": 0.01739858625205679,
+                "intercept": 33.75325732899023
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.11401060387478992,
+                "intercept": 289.64040944174417
+            },
+            {
+                "period": "1970-2000",
+                "slope": -0.0010826278227425497,
+                "intercept": 68.45951745837381
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.05866911125902807,
+                "intercept": -51.93783262781459
+            }
+        ]
     },
     {
         "station_id": 86406,
@@ -717,7 +1944,20 @@
         "color": "red",
         "trend_meantemp_yearly": -0.19419362918820532,
         "trend_mintemp_yearly": 1.1669454470497063,
-        "trend_maxtemp_yearly": -1.5546811685272466
+        "trend_maxtemp_yearly": -1.5546811685272466,
+        "trend_precip_yearly": -0.008437817678262237,
+        "trend_lines": [
+            {
+                "period": "1970-2000",
+                "slope": 0.04735724362347619,
+                "intercept": -17.881831954838262
+            },
+            {
+                "period": "2000-2022",
+                "slope": -0.007539779634212908,
+                "intercept": 91.1691354883176
+            }
+        ]
     },
     {
         "station_id": 86414,
@@ -729,7 +1969,35 @@
         "color": "blue",
         "trend_meantemp_yearly": 1.169843680398581,
         "trend_mintemp_yearly": 1.0016420406533746,
-        "trend_maxtemp_yearly": 1.3183327175229491
+        "trend_maxtemp_yearly": 1.3183327175229491,
+        "trend_precip_yearly": -0.36079630621055825,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": -0.051664791787744864,
+                "intercept": 168.98826265040285
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.0725603379580571,
+                "intercept": -69.51260328347456
+            },
+            {
+                "period": "1940-1970",
+                "slope": 0.022746415080463617,
+                "intercept": 26.76018289447345
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.029428146813134562,
+                "intercept": 12.361541487012435
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.09615607709908927,
+                "intercept": -121.62916973462198
+            }
+        ]
     },
     {
         "station_id": 86485,
@@ -741,7 +2009,25 @@
         "color": "orange",
         "trend_meantemp_yearly": 1.5678766771592139,
         "trend_mintemp_yearly": -3.226720765128551,
-        "trend_maxtemp_yearly": 6.655219804462222
+        "trend_maxtemp_yearly": 6.655219804462222,
+        "trend_precip_yearly": -0.09786066582752136,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.05706114018466164,
+                "intercept": 184.56241045660977
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.10174240358187307,
+                "intercept": -128.54098379062015
+            },
+            {
+                "period": "2000-2022",
+                "slope": -0.058294785681964285,
+                "intercept": 190.06759795467784
+            }
+        ]
     },
     {
         "station_id": 86628,
@@ -753,7 +2039,25 @@
         "color": "orange",
         "trend_meantemp_yearly": 4.27554293966849,
         "trend_mintemp_yearly": 3.4816813564423503,
-        "trend_maxtemp_yearly": 5.091190221304727
+        "trend_maxtemp_yearly": 5.091190221304727,
+        "trend_precip_yearly": 3.332668304164122,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.1020119149359903,
+                "intercept": 271.6357343107085
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.05005002824856424,
+                "intercept": -26.79565692673829
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.13130963691809178,
+                "intercept": -190.5051849290094
+            }
+        ]
     },
     {
         "station_id": 86842,
@@ -765,7 +2069,20 @@
         "color": "blue",
         "trend_meantemp_yearly": 7.435513549995656,
         "trend_mintemp_yearly": 11.900768805538773,
-        "trend_maxtemp_yearly": 3.086513193592237
+        "trend_maxtemp_yearly": 3.086513193592237,
+        "trend_precip_yearly": -3.2135905514674667,
+        "trend_lines": [
+            {
+                "period": "1970-2000",
+                "slope": -0.026064363908165036,
+                "intercept": 118.77698910447467
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.10242016421390067,
+                "intercept": -136.56021043725113
+            }
+        ]
     },
     {
         "station_id": 86880,
@@ -777,7 +2094,25 @@
         "color": "orange",
         "trend_meantemp_yearly": -0.7464781226985698,
         "trend_mintemp_yearly": 4.171790138565347,
-        "trend_maxtemp_yearly": -5.261111025188368
+        "trend_maxtemp_yearly": -5.261111025188368,
+        "trend_precip_yearly": -1.2296504744173862,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": 0.02038926041836991,
+                "intercept": 32.58681332292257
+            },
+            {
+                "period": "1970-2000",
+                "slope": -0.023114621460088768,
+                "intercept": 118.31384476303202
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.03017330096497371,
+                "intercept": 11.87997541630382
+            }
+        ]
     },
     {
         "station_id": 86997,
@@ -789,7 +2124,25 @@
         "color": "blue",
         "trend_meantemp_yearly": 2.3458946162043066,
         "trend_mintemp_yearly": 2.689392968012528,
-        "trend_maxtemp_yearly": 2.0032116167017695
+        "trend_maxtemp_yearly": 2.0032116167017695,
+        "trend_precip_yearly": 5.9715723898914925,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.1746879380556328,
+                "intercept": 410.1678507137575
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.05230021034086907,
+                "intercept": -35.7327041390757
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.16795833833656426,
+                "intercept": -268.5657778266024
+            }
+        ]
     },
     {
         "station_id": 87020,
@@ -801,7 +2154,20 @@
         "color": "red",
         "trend_meantemp_yearly": 5.799734771693573,
         "trend_mintemp_yearly": 6.753628976759621,
-        "trend_maxtemp_yearly": 4.878365432372597
+        "trend_maxtemp_yearly": 4.878365432372597,
+        "trend_precip_yearly": 1.7491579322556914,
+        "trend_lines": [
+            {
+                "period": "1970-2000",
+                "slope": -0.06617768969035628,
+                "intercept": 206.6403933165353
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.12409903656732792,
+                "intercept": -174.4271690784361
+            }
+        ]
     },
     {
         "station_id": 87025,
@@ -813,7 +2179,30 @@
         "color": "blue",
         "trend_meantemp_yearly": 1.0664357235740813,
         "trend_mintemp_yearly": 0.6700521636561182,
-        "trend_maxtemp_yearly": 1.4349228020885099
+        "trend_maxtemp_yearly": 1.4349228020885099,
+        "trend_precip_yearly": -0.7745200516023749,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": -0.22069402366071167,
+                "intercept": 496.5445370244265
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.002825831738217708,
+                "intercept": 73.41164555682408
+            },
+            {
+                "period": "1970-2000",
+                "slope": -0.008931425072106118,
+                "intercept": 86.68346995388288
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.14256253447198503,
+                "intercept": -217.31315358219896
+            }
+        ]
     },
     {
         "station_id": 87205,
@@ -825,7 +2214,35 @@
         "color": "orange",
         "trend_meantemp_yearly": 1.7583509096697696,
         "trend_mintemp_yearly": 2.602145042505438,
-        "trend_maxtemp_yearly": 1.0017909102689526
+        "trend_maxtemp_yearly": 1.0017909102689526,
+        "trend_precip_yearly": 0.2540880268431138,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": -0.053528032433711056,
+                "intercept": 173.6968979739036
+            },
+            {
+                "period": "1910-1940",
+                "slope": -0.059440438115206815,
+                "intercept": 185.81412689419983
+            },
+            {
+                "period": "1940-1970",
+                "slope": 0.004048749898882868,
+                "intercept": 64.26090940017558
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.009667441201507417,
+                "intercept": 53.25929528271486
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.22408727530768474,
+                "intercept": -377.02923316996964
+            }
+        ]
     },
     {
         "station_id": 87397,
@@ -837,7 +2254,25 @@
         "color": "red",
         "trend_meantemp_yearly": 6.322472302594559,
         "trend_mintemp_yearly": 6.325063759790883,
-        "trend_maxtemp_yearly": 5.579731768904715
+        "trend_maxtemp_yearly": 5.579731768904715,
+        "trend_precip_yearly": 4.528008494488126,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.3632360662752839,
+                "intercept": 787.147825035656
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.06907569827508424,
+                "intercept": -63.32288909342001
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.15768639918673594,
+                "intercept": -242.02467003858467
+            }
+        ]
     },
     {
         "station_id": 87429,
@@ -849,7 +2284,25 @@
         "color": "blue",
         "trend_meantemp_yearly": 4.593746795932019,
         "trend_mintemp_yearly": 5.010626243216726,
-        "trend_maxtemp_yearly": 4.184903237776045
+        "trend_maxtemp_yearly": 4.184903237776045,
+        "trend_precip_yearly": 0.9396979185981481,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": 0.3657534246579384,
+                "intercept": -654.5871403178425
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.03204918714145397,
+                "intercept": 3.466322951715448
+            },
+            {
+                "period": "2000-2022",
+                "slope": -0.6497715247777112,
+                "intercept": 1367.8161977035766
+            }
+        ]
     },
     {
         "station_id": 87760,
@@ -861,7 +2314,25 @@
         "color": "red",
         "trend_meantemp_yearly": 5.128639672523093,
         "trend_mintemp_yearly": 6.016917857967991,
-        "trend_maxtemp_yearly": 3.968574505934562
+        "trend_maxtemp_yearly": 3.968574505934562,
+        "trend_precip_yearly": -0.6028054019053118,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": 0.03365558769155316,
+                "intercept": 7.819460811478983
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.007740418152715368,
+                "intercept": 60.60123477682793
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.09341410733623573,
+                "intercept": -111.54156735212428
+            }
+        ]
     },
     {
         "station_id": 87826,
@@ -873,7 +2344,20 @@
         "color": "blue",
         "trend_meantemp_yearly": 5.15352005427991,
         "trend_mintemp_yearly": 8.10987379988629,
-        "trend_maxtemp_yearly": 2.1480252731907403
+        "trend_maxtemp_yearly": 2.1480252731907403,
+        "trend_precip_yearly": 3.0977152889830606,
+        "trend_lines": [
+            {
+                "period": "1970-2000",
+                "slope": 0.007570559397773513,
+                "intercept": 54.75514421105073
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.10350494761716077,
+                "intercept": -136.69114260742208
+            }
+        ]
     },
     {
         "station_id": 87851,
@@ -885,7 +2369,35 @@
         "color": "orange",
         "trend_meantemp_yearly": 1.4458082344993441,
         "trend_mintemp_yearly": 1.2592812161482814,
-        "trend_maxtemp_yearly": 1.6442419086216309
+        "trend_maxtemp_yearly": 1.6442419086216309,
+        "trend_precip_yearly": -1.38060434709445,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": -0.1519324386444029,
+                "intercept": 360.8688068136253
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.019926291124037657,
+                "intercept": 32.84368379088131
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.03241052703933855,
+                "intercept": 135.4769253745466
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.03906124477770597,
+                "intercept": -4.969299956032368
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.0012136301681307416,
+                "intercept": 70.40002803357982
+            }
+        ]
     },
     {
         "station_id": 87886,
@@ -897,7 +2409,30 @@
         "color": "orange",
         "trend_meantemp_yearly": 1.8188282797587083,
         "trend_mintemp_yearly": 3.537782659142202,
-        "trend_maxtemp_yearly": 0.10706832695964276
+        "trend_maxtemp_yearly": 0.10706832695964276,
+        "trend_precip_yearly": -0.22757630828580885,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": 1.0273972602724284,
+                "intercept": -1871.5616438326986
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.03713641634455768,
+                "intercept": 2.356956013614205
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.021978636975501026,
+                "intercept": 116.48069241601435
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.10784230874281231,
+                "intercept": -141.77023643049034
+            }
+        ]
     },
     {
         "station_id": 87982,
@@ -909,7 +2444,25 @@
         "color": "orange",
         "trend_meantemp_yearly": 4.033521835492459,
         "trend_mintemp_yearly": 6.503793409604275,
-        "trend_maxtemp_yearly": 1.4528695037485702
+        "trend_maxtemp_yearly": 1.4528695037485702,
+        "trend_precip_yearly": 1.4863417215796015,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.030268675082958434,
+                "intercept": 130.93685873625867
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.021128589157531973,
+                "intercept": 29.535099798437344
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.09107448461956626,
+                "intercept": -109.95436611073127
+            }
+        ]
     },
     {
         "station_id": 88620,
@@ -921,7 +2474,30 @@
         "color": "orange",
         "trend_meantemp_yearly": 1.4044484934850887,
         "trend_mintemp_yearly": 3.4456609970977174,
-        "trend_maxtemp_yearly": -0.531287612506298
+        "trend_maxtemp_yearly": -0.531287612506298,
+        "trend_precip_yearly": 1.93248264274413,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": -0.24702823277721364,
+                "intercept": 553.1937258239545
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.09698386605901106,
+                "intercept": 264.09023329341795
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.10956000420283203,
+                "intercept": -142.82964814076882
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.1721519893108075,
+                "intercept": -271.1978373205607
+            }
+        ]
     },
     {
         "station_id": 88758,
@@ -933,7 +2509,25 @@
         "color": "blue",
         "trend_meantemp_yearly": 2.6941938317924303,
         "trend_mintemp_yearly": 1.9015947697003834,
-        "trend_maxtemp_yearly": 3.498515877882709
+        "trend_maxtemp_yearly": 3.498515877882709,
+        "trend_precip_yearly": -1.9778065609843063,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.12101834253204889,
+                "intercept": 304.74250110936316
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.060940425109184106,
+                "intercept": -53.40500410202001
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.12491939144315153,
+                "intercept": -182.29955359530908
+            }
+        ]
     },
     {
         "station_id": 88788,
@@ -945,7 +2539,30 @@
         "color": "orange",
         "trend_meantemp_yearly": 2.8635832160356967,
         "trend_mintemp_yearly": 3.864940868727476,
-        "trend_maxtemp_yearly": 1.8664855368444935
+        "trend_maxtemp_yearly": 1.8664855368444935,
+        "trend_precip_yearly": 0.1323751067722973,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": -0.21936111817823992,
+                "intercept": 497.53516617790746
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.06770862082291064,
+                "intercept": 204.57051270534632
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.052999353987677314,
+                "intercept": -32.33556646840591
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.15559244898287095,
+                "intercept": -238.4509317212407
+            }
+        ]
     },
     {
         "station_id": 88824,
@@ -957,7 +2574,35 @@
         "color": "orange",
         "trend_meantemp_yearly": 1.5408139894965434,
         "trend_mintemp_yearly": 2.473302262221953,
-        "trend_maxtemp_yearly": 0.6434967144407817
+        "trend_maxtemp_yearly": 0.6434967144407817,
+        "trend_precip_yearly": 0.3044104599748914,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": 0.005487746155626217,
+                "intercept": 60.349098130478865
+            },
+            {
+                "period": "1910-1940",
+                "slope": 0.02701352691360142,
+                "intercept": 20.352461147471566
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.06088235069213584,
+                "intercept": 190.65906973118646
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.08904961001811437,
+                "intercept": -104.08043082294678
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.053191032490411065,
+                "intercept": -33.884420018719176
+            }
+        ]
     },
     {
         "station_id": 88942,
@@ -969,7 +2614,35 @@
         "color": "orange",
         "trend_meantemp_yearly": 0.8007299296298102,
         "trend_mintemp_yearly": 1.9034641404507853,
-        "trend_maxtemp_yearly": -0.42100974688537957
+        "trend_maxtemp_yearly": -0.42100974688537957,
+        "trend_precip_yearly": -0.5961952414378616,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": 0.5517626521637259,
+                "intercept": -978.4993933879053
+            },
+            {
+                "period": "1910-1940",
+                "slope": -0.003782084241831767,
+                "intercept": 79.28195807344167
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.08413550184542155,
+                "intercept": 236.59924940140476
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.007656734911185963,
+                "intercept": 56.558928177164184
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.05772380313327271,
+                "intercept": -42.96352898310794
+            }
+        ]
     },
     {
         "station_id": 89120,
@@ -981,7 +2654,25 @@
         "color": "blue",
         "trend_meantemp_yearly": 3.1723534105805613,
         "trend_mintemp_yearly": 5.7469322638058316,
-        "trend_maxtemp_yearly": 0.5470759271789267
+        "trend_maxtemp_yearly": 0.5470759271789267,
+        "trend_precip_yearly": -3.4337096410669554,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.13341611277103857,
+                "intercept": 330.56684562029557
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.028330100841838315,
+                "intercept": 13.280999293155869
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.17129432340894554,
+                "intercept": -274.560438131679
+            }
+        ]
     },
     {
         "station_id": 89176,
@@ -993,7 +2684,30 @@
         "color": "orange",
         "trend_meantemp_yearly": 4.608936651392348,
         "trend_mintemp_yearly": 4.692043068844573,
-        "trend_maxtemp_yearly": 4.441687727825458
+        "trend_maxtemp_yearly": 4.441687727825458,
+        "trend_precip_yearly": 2.101713114609723,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": 0.01884998456968385,
+                "intercept": 36.32392026578078
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.053534484239722166,
+                "intercept": 177.17994493472432
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.07947193874946736,
+                "intercept": -84.58838998946973
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.09320630500143376,
+                "intercept": -113.08307335043504
+            }
+        ]
     },
     {
         "station_id": 89214,
@@ -1005,7 +2719,25 @@
         "color": "orange",
         "trend_meantemp_yearly": 1.2321133088390497,
         "trend_mintemp_yearly": -0.45072171958469326,
-        "trend_maxtemp_yearly": 2.9253946653967877
+        "trend_maxtemp_yearly": 2.9253946653967877,
+        "trend_precip_yearly": -0.6607375546670334,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.04465397787590712,
+                "intercept": 160.4145113097048
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.03481993532615845,
+                "intercept": 4.067192664159432
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.11504515348862382,
+                "intercept": -157.5588520799852
+            }
+        ]
     },
     {
         "station_id": 89219,
@@ -1017,7 +2749,25 @@
         "color": "orange",
         "trend_meantemp_yearly": 4.127204737363222,
         "trend_mintemp_yearly": 8.418191860554284,
-        "trend_maxtemp_yearly": -0.2663664193894276
+        "trend_maxtemp_yearly": -0.2663664193894276,
+        "trend_precip_yearly": 0.15587160218203855,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.027945205478491518,
+                "intercept": 126.25602199393799
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.0054065840250154,
+                "intercept": 61.706200718041984
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.15750006726924165,
+                "intercept": -243.47043526659064
+            }
+        ]
     },
     {
         "station_id": 89401,
@@ -1029,7 +2779,30 @@
         "color": "orange",
         "trend_meantemp_yearly": -0.24804303112166162,
         "trend_mintemp_yearly": -0.36971049795791283,
-        "trend_maxtemp_yearly": -0.09762331508759751
+        "trend_maxtemp_yearly": -0.09762331508759751,
+        "trend_precip_yearly": -2.198809094913968,
+        "trend_lines": [
+            {
+                "period": "1910-1940",
+                "slope": -0.19159406661722533,
+                "intercept": 444.3207515289507
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.01792234359947746,
+                "intercept": 107.38506612614984
+            },
+            {
+                "period": "1970-2000",
+                "slope": -0.0170943285909254,
+                "intercept": 106.66123939831539
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.10770151326101453,
+                "intercept": -144.14032480489396
+            }
+        ]
     },
     {
         "station_id": 89430,
@@ -1041,7 +2814,25 @@
         "color": "orange",
         "trend_meantemp_yearly": 6.9327732567578915,
         "trend_mintemp_yearly": 11.513378854062907,
-        "trend_maxtemp_yearly": 2.512876976122156
+        "trend_maxtemp_yearly": 2.512876976122156,
+        "trend_precip_yearly": 0.9344229670214079,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": 0.017274555073084227,
+                "intercept": 34.030873493975854
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.07641118766724365,
+                "intercept": -81.33745788031467
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.1663586530493858,
+                "intercept": -262.28124923864914
+            }
+        ]
     },
     {
         "station_id": 89525,
@@ -1053,7 +2844,25 @@
         "color": "red",
         "trend_meantemp_yearly": 2.2466892955959175,
         "trend_mintemp_yearly": 4.130611551904771,
-        "trend_maxtemp_yearly": 0.355505411813096
+        "trend_maxtemp_yearly": 0.355505411813096,
+        "trend_precip_yearly": -0.9500949867782004,
+        "trend_lines": [
+            {
+                "period": "1940-1970",
+                "slope": -0.06549272119079451,
+                "intercept": 203.05385892679809
+            },
+            {
+                "period": "1970-2000",
+                "slope": 0.0374093453941957,
+                "intercept": 1.0077236771827727
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.11182622146743727,
+                "intercept": -148.490533875796
+            }
+        ]
     },
     {
         "station_id": 89566,
@@ -1065,6 +2874,29 @@
         "color": "blue",
         "trend_meantemp_yearly": -0.5019066514083539,
         "trend_mintemp_yearly": 1.0062800539390004,
-        "trend_maxtemp_yearly": -1.9287415703316033
+        "trend_maxtemp_yearly": -1.9287415703316033,
+        "trend_precip_yearly": -0.4643487811875201,
+        "trend_lines": [
+            {
+                "period": "1880-1910",
+                "slope": -0.18973828604338627,
+                "intercept": 428.87450043732593
+            },
+            {
+                "period": "1940-1970",
+                "slope": -0.18331095954031787,
+                "intercept": 427.74901935797794
+            },
+            {
+                "period": "1970-2000",
+                "slope": -0.008923722734950786,
+                "intercept": 85.59701828108666
+            },
+            {
+                "period": "2000-2022",
+                "slope": 0.04070908152802774,
+                "intercept": -14.41695389713103
+            }
+        ]
     }
 ]

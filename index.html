@@ -4,35 +4,35 @@
     <title>Florida Climate - MET3220</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="static/css/styles.css" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
   </head>
+
   <body>
     <div class="wrapper">
+
+  <!-- FIRST NAV BAR   -->
       <nav id="sidebar">
         <div class="sidebar-header">
           <h4>FLORIDA CLIMATE</h4>
         </div>
         <ul class="list-unstyled components">
           <li>
-            <a
-              href="#homeSubmenu"
-              data-toggle="collapse"
-              aria-expanded="true"
-              class="dropdown-toggle"
-              >Yearly Trends</a
-            >
-            <ul class="collapse list-unstyled show" id="homeSubmenu">
+            <a href="#menuSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Main Menu</a>
+            <ul class="collapse list-unstyled show" id="menuSubmenu">
+              <li><a href="#" class="nav-link sidebar-list-link specific-link active" id="homepage-link">Home</a></li>
+              <li><a href="#" class="nav-link sidebar-list-link specific-link" id="features-link">Features</a></li>
+              <li><a href="#" class="nav-link sidebar-list-link specific-link">About</a></li>
+              <li><a href="#" class="nav-link sidebar-list-link specific-link">Contact</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Yearly Trends</a>
+            <ul class="collapse list-unstyled" id="homeSubmenu">
                 <li><a href="#" class="nav-link sidebar-list-link specific-link" id="trend-meantemp-yearly-link">Mean Temperature</a></li>
                 <li><a href="#" class="nav-link sidebar-list-link specific-link" id="trend-maxtemp-yearly-link">Maximum Temperature</a></li>
                 <li><a href="#" class="nav-link sidebar-list-link specific-link" id="trend-mintemp-yearly-link">Minimum Temperature</a></li>
@@ -40,13 +40,7 @@
             </ul>
           </li>
           <li>
-            <a
-              href="#tempSubmenu"
-              data-toggle="collapse"
-              aria-expanded="false"
-              class="dropdown-toggle"
-              >Temperature Time Series</a
-            >
+            <a href="#tempSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Temperature Time Series</a>
             <ul class="collapse list-unstyled" id="tempSubmenu">
               <li><a href="#">1880-1910</a></li>
               <li><a href="#">1910-1940</a></li>
@@ -56,13 +50,7 @@
             </ul>
           </li>
           <li>
-            <a
-              href="#precipSubmenu"
-              data-toggle="collapse"
-              aria-expanded="false"
-              class="dropdown-toggle"
-              >Precipitation Time Series</a
-            >
+            <a href="#precipSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Precipitation Time Series</a>
             <ul class="collapse list-unstyled" id="precipSubmenu">
               <li><a href="#">1880-1910</a></li>
               <li><a href="#">1910-1940</a></li>
@@ -71,60 +59,33 @@
               <li><a href="#">2000-Present</a></li>
             </ul>
           </li>
-          <li><a href="#" class="nav-link">Weather Stations</a></li>
-          <li><a href="#" class="nav-link">Image Library</a></li>
-          <li><a href="#" class="nav-link">CSV Data</a></li>
-          <li><a href="#" class="nav-link">Home</a></li>
-          <li><a href="#" class="nav-link">Features</a></li>
-          <li><a href="#" class="nav-link">About</a></li>
-          <li><a href="#" class="nav-link">Contact</a></li>
-        </ul>
-        <ul class="list-unstyled CTAs">
           <li>
-            <a
-              href="https://github.com/ustropics/MET3220"
-              class="btn-danger"
-              target="_blank"
-              >Github Project</a
-            >
+            <a href="#dataSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Data Access</a>
+            <ul class="collapse list-unstyled" id="dataSubmenu">
+              <li><a href="#">Weather Stations</a></li>
+              <li><a href="#">Image Library</a></li>
+              <li><a href="#">CSV Data</a></li>
+            </ul>
           </li>
         </ul>
+        <ul class="list-unstyled CTAs">
+          <li><a href="https://github.com/ustropics/MET3220" class="btn-danger" target="_blank">Github Project</a></li>
+        </ul>
       </nav>
+
       <div class="content container-fluid" style="padding-left: 0px">
+        <!-- SECOND NAV BAR   -->
         <nav class="navbar navbar-expand-lg navbar-dark" id="top_navbar">
-          <button type="button" id="sidebarCollapse" class="btn btn-danger">
-            <i class="fa fa-window-restore"></i>
-          </button>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button type="button" id="sidebarCollapse" class="btn btn-danger"><i class="fa fa-window-restore"></i></button>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link specific-link active" href="#" id="homepage-link"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
+              <li class="nav-item"><a class="nav-link specific-link navbar-home-link active" href="#" id="homepage-link">Home <span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"><a class="nav-link specific-link navbar-features-link" href="#">Features</a></li>
               <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://github.com/ustropics/MET3220"
-                  target="_blank"
-                  >Github</a
-                >
-              </li>
+              <li class="nav-item"><a class="nav-link" href="https://github.com/ustropics/MET3220" target="_blank">Github</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
             </ul>
           </div>
@@ -212,8 +173,8 @@
             <iframe src="template/maps/map_trend_maxtemp_yearly.html" id="trend-maxtemp-yearly-iframe" class="map-iframe" width="100%" height="860px"></iframe>
           </div>
         
-          <div id="trend-precipitation-yearly-wrapper">
-            <iframe src="template/maps/map_trend_precipitation_yearly.html" id="trend-precipitation-yearly-iframe" class="map-iframe" width="100%" height="860px"></iframe>
+          <div id="trend-precip-yearly-wrapper">
+            <iframe src="template/maps/map_trend_precip_yearly.html" id="trend-precip-yearly-iframe" class="map-iframe" width="100%" height="860px"></iframe>
           </div>
         </div>
     </div>

@@ -171,3 +171,13 @@ a.download:hover {
 .zoom-in:hover {
   transform: scale(1.1);
 }
+
+.navbar-nav .nav-link.active,
+.list-unstyled .nav-link.active {
+  color: #fff;
+}
+
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
