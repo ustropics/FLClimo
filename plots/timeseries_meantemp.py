@@ -107,7 +107,7 @@ for filename in os.listdir(directory):
             fig, ax = plt.subplots(figsize=(16,9))
             ax.plot(period_data['DATE'], period_data['MEAN TEMP'], label='MEAN TEMP')
             ax.plot(period_data['DATE'], trend(period_data['DATE'].dt.year, period_data['MEAN TEMP']), label='Trend')
-            ax.set_title(f'{station_name} ({period[0]}-{period[1]})')
+            ax.set_title(f'Mean Temperature by Year - {station_name} ({station_id}) ({period[0]}-{period[1]})')
             ax.set_xlabel('Year')
             ax.set_ylabel('Mean Temperature (F)')
             ax.legend()
