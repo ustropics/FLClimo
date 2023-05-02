@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 import json
 
 # Set the directory where the CSV files are located
@@ -83,10 +84,10 @@ for filename in os.listdir(directory):
             else:
                 return np.zeros_like(x)
 
-        # Define the periods to plot
-        periods = [(1961, 1980), (1981, 2000), (2001, 2020)]
+        # Set an empty trend line and the periods used
+        trend_lines = []
+        periods = [(1880, 1910),(1910, 1940), (1940, 1970), (1970, 2000), (2000,2022)]
 
-        # Loop over the periods and create a plot for each one
         for period in periods:
             # Extract the data for the current period
             period_data = valid_data[valid_data['DATE'].dt.year.between(period[0], period[1])]
@@ -94,15 +95,39 @@ for filename in os.listdir(directory):
             if not period_data['DATE'].dt.year.empty and not period_data['PRECIPITATION'].empty:
                 z = np.polyfit(period_data['DATE'].dt.year, period_data['PRECIPITATION'], deg=1)
 
+                # Create a dictionary with the necessary information for the trend line
+                trend_dict = {'period': f'{period[0]}-{period[1]}',
+                            'slope': z[0],
+                            'intercept': z[1]}
+
+                # Append the trend dictionary to the list of trend lines for the current station
+                trend_lines.append(trend_dict)
+
             # Create a plot of the precipitation data and the trend line for the current period
-            fig, ax = plt.subplots()
-            ax.plot(period_data['DATE'], period_data['PRECIPITATION'], label='Precipitation')
+            fig, ax = plt.subplots(figsize=(16,9))
+            ax.plot(period_data['DATE'], period_data['PRECIPITATION'], label='PRECIPITATION')
             ax.plot(period_data['DATE'], trend(period_data['DATE'].dt.year, period_data['PRECIPITATION']), label='Trend')
-            ax.set_title(f'{station_name} ({period[0]}-{period[1]})')
+            ax.set_title(f'Mean Precipitation by year - {station_name} ({station_id}) ({period[0]}-{period[1]})')
             ax.set_xlabel('Year')
             ax.set_ylabel('Precipitation (mm)')
             ax.legend()
 
+            # Set the x-ticks to show each year
+            years = np.arange(period[0], period[1]+1)
+            ax.set_xticks(pd.date_range(f"{period[0]}", f"{period[1]}", freq="AS"))
+            ax.set_xticklabels(years, rotation=45)
+
             # Save the plot to a PNG file
-            plot_filename = f'../static/img/plots/timeseries/meantemp_daily/{station_id}_{period[0]}-{period[1]}.png'
-            fig.savefig(plot_filename)
+            plot_filename = f'../static/img/plots/timeseries/precip_daily/{station_id}_{period[0]}-{period[1]}.png'
+            plt.savefig(plot_filename)
+            plt.close()
+
+        # Add the trend lines to the weather_stations dictionary
+        for station in weather_stations:
+            if station['station_id'] == int(station_id):
+                station['precip_trend_lines'] = trend_lines
+                break
+
+        # Save the weather_stations dictionary to the JSON file
+        with open(json_file, 'w') as f:
+            json.dump(weather_stations, f, indent=4)
