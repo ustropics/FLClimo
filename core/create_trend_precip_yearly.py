@@ -19,21 +19,6 @@ florida_map = folium.Map(
     zoom_control= False,
 )
 
-# Create a legend for the colors
-legend_html = """
-<div style="position: fixed; 
-     bottom: 50px; left: 50px; width: 400px; height: 200px; 
-     border:2px solid grey; z-index:9999; font-size:14px;
-     background-color: rgba(255, 255, 255, 0.7);
-     ">&nbsp; Trend Precip Yearly <br>
-     &nbsp; -2 or less &nbsp; <i class="fa fa-map-marker fa-2x" style="color:red"></i><br>
-     &nbsp; -2 to 0 &nbsp; <i class="fa fa-map-marker fa-2x" style="color:orange"></i><br>
-     &nbsp; 0 to 2 &nbsp; <i class="fa fa-map-marker fa-2x" style="color:green"></i><br>
-     &nbsp; 2 or more &nbsp; <i class="fa fa-map-marker fa-2x" style="color:lightgreen"></i>
-</div>
-"""
-florida_map.get_root().html.add_child(folium.Element(legend_html))
-
 # Add markers for each location
 for location in locations:
     # Get the trend_meantemp_yearly value for the current location
