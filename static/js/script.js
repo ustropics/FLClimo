@@ -107,3 +107,4 @@ function activateLink(navSelector, sidebarSelector) {
 // Activate links in both menus
 activateLink('.navbar-home-link', '#homepage-link');
 activateLink('.navbar-features-link', '#features-link');
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+</head>
+<body>
+	<div id="image-gallery"></div>
+	<script>
+		function loadImagesFromDir(directory) {
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function() {
+				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+					var images = xmlhttp.responseText.match(/href="([^"]+\.(jpe?g|png|gif))"/gi);
+					for (var i = 0; i < images.length; i++) {
+						var imageSrc = directory + images[i].replace(/href="/i, '');
+						var img = document.createElement('img');
+						img.src = imageSrc;
+						document.getElementById('image-gallery').appendChild(img);
+					}
+				}
+			};
+			xmlhttp.open('GET', directory, true);
+			xmlhttp.send();
+		}
+		loadImagesFromDir('static/img/plots/timeseries/meantemp_daily/');
+	</script>
+</body>
+</html>

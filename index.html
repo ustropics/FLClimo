@@ -62,7 +62,7 @@
           <li>
             <a href="#dataSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Data Access</a>
             <ul class="collapse list-unstyled" id="dataSubmenu">
-              <li><a href="#">Weather Stations</a></li>
+              <li><a class="nav-link sidebar-list-link specific-link" id="json-text-link" href="#">Weather Stations</a></li>
               <li><a href="#">Image Library</a></li>
               <li><a href="#">CSV Data</a></li>
             </ul>
@@ -103,8 +103,10 @@
                   a visual representation of the data is displayed.
                 </p>
                 <p>
-                  <a href="#" class="btn btn-danger my-2 specific-link navbar-features-link" id="features-link">Learn More</a>
-                  <a href="#" class="btn btn-secondary my-2">Data Access</a>
+                  <ul class="navbar-nav" style="display: inline;">
+                    <li class="nav-item" style="display: inline;"><a href="#" class="btn btn-danger my-2 specific-link navbar-features-link" id="features-link">Learn More</a></li>
+                    <li class="nav-item" style="display: inline;"><a href="#" class="btn btn-secondary my-2">Data Access</a></li>
+                  </ul>
                 </p>
               </div>
             </section>
@@ -221,6 +223,11 @@
           <div id="features-wrapper">
             <iframe src="template/features.html" id="features-iframe" class="map-iframe" width="100%" height="860px"></iframe>
           </div>
+
+           <div id="json-text-wrapper">
+            <iframe src="template/json_text.html" id="features-iframe" class="map-iframe" width="100%" height="860px"></iframe>
+           </div>
+
 
         </div>
     </div>
