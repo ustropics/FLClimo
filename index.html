@@ -69,7 +69,7 @@
           </li>
         </ul>
         <ul class="list-unstyled CTAs">
-          <li><a href="https://github.com/ustropics/MET3220" class="btn-danger" target="_blank">Github Project</a></li>
+          <li><a href="#" class="btn-danger" onclick='window.open("https://github.com/ustropics/MET3220");return false;'>Github Project</a></li>
         </ul>
       </nav>
 
@@ -86,7 +86,7 @@
               <li class="nav-item"><a class="nav-link specific-link navbar-home-link active" href="#" id="homepage-link">Home <span class="sr-only">(current)</span></a></li>
               <li class="nav-item"><a class="nav-link specific-link navbar-features-link" href="#" id="features-link">Features</a></li>
               <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://github.com/ustropics/MET3220" target="_blank">Github</a></li>
+              <li class="nav-item"><a class="nav-link" href="#" onclick='window.open("https://github.com/ustropics/MET3220");return false;'>Github</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
             </ul>
           </div>
@@ -105,7 +105,7 @@
                 <p>
                   <ul class="navbar-nav" style="display: inline;">
                     <li class="nav-item" style="display: inline;"><a href="#" class="btn btn-danger my-2 specific-link navbar-features-link" id="features-link">Learn More</a></li>
-                    <li class="nav-item" style="display: inline;"><a href="https://climatecenter.fsu.edu/climate-data-access-tools/downloadable-data" target="_blank" class="btn btn-secondary my-2">Data Access</a></li>
+                    <li class="nav-item" style="display: inline;"><a href="#" class="btn btn-secondary my-2" onclick='window.open("https://climatecenter.fsu.edu/climate-data-access-tools/downloadable-data");return false;'>Data Access</a></li>
                   </ul>
                 </p>
               </div>
@@ -223,11 +223,15 @@
            </div>
 
            <div id="image-gallery-wrapper">
-            <center><h3>Coming Soon!</h3></center>
+            <div style="padding-top: 50px"></div>
+            <h3 class="text-light text-center">Coming Soon!</h3>
+            <p class="text-light text-center">For now, all plotted images can be access from our <a class="text-danger" href="#" onclick='window.open("https://github.com/ustropics/MET3220/tree/main/static/img");return false;'>Github Repo</a>.</p>
           </div>
 
           <div id="csv-data-wrapper">
-            <center><h3>Coming Soon!</h3></center>
+            <div style="padding-top: 50px"></div>
+            <h3 class="text-light text-center">Coming Soon!</h3>
+            <p class="text-light text-center">For now, all csv files can be access from our <a class="text-danger" href="#" onclick='window.open("https://github.com/ustropics/MET3220/tree/main/data/weather_stations");return false;'>Github Repo</a>.</p>
           </div>
 
         </div>
