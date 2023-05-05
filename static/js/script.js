@@ -108,4 +108,5 @@ function activateLink(navSelector, sidebarSelector) {
 activateLink('.navbar-home-link', '#homepage-link');
 activateLink('.navbar-features-link', '#features-link');
 activateLink('.navbar-about-link', '#about-link');
+activateLink('.navbar-contact-link', '#contact-link');
 
