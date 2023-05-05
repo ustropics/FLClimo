@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Florida Climate - MET3220</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../static/css/styles.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="custom-bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="text-light mt-5 mb-4">Introduction</h3>
+                <p class="text-light">
+                    This project looks to explore Florida weather data that has been organized from almost 100 weather stations throughout the state, 
+                    allowing for valuable insights into weather patterns and trends over time. All files, images, maps, plotting images, 
+                    and programming scripts have been organized <a class="text-danger" href="https://ustropics.github.io/MET3220/" target="_blank">here</a>. 
+                    Included are interactive maps (located under Yearly Trends and Time Series), providing an engaging and informative way to explore historic weather conditions in Florida. 
+                    These maps allow users to investigate weather patterns and trends and are equipped with custom map markers that are colored based on trends. 
+                    Quick trend graphs are also available within the markers—a powerful tool for visualizing trends, patterns, and insights. 
+                    Trend plots are another valuable feature of the Florida weather data project, offering a visual representation of long-term weather patterns. 
+                    These plots allow for insight into climate trends and changes over time.
+                </p>
+                <p class="text-light">
+                    Additionally, time series graphs of historic weather data over 30-year intervals can provide valuable insights into how the climate has changed 
+                    over time. These graphs can show trends in temperature, precipitation, and other weather variables that can help us understand how the climate 
+                    is evolving. This entire project—the web frame design, scripts to create plots, data files, weather stations, and more—is available within the 
+                    Github repo <a class="text-danger" href="https://github.com/ustropics/MET3220" target="_blank">MET3220</a>. This integration with Github ensures that the project remains easily accessible, up-to-date, and transparent for users.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="text-light mt-5 mb-4">Data Sources</h3>
+                <p class="text-light">
+                    The data source used in the paper is from the Florida Climate Center, which provides a wealth of meteorological station observations from across Florida, 
+                    including daily mean temperature, daily maximum temperature, daily minimum temperature, and precipitation. For the purposes of this paper, 
+                    and to automate the assimilation of data, we've used a Python module, Mechanize, to access the fields and download the csv files.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="text-light mt-5 mb-4">Data Assimilation</h3>
+                <p class="text-light">
+                    This project utilizes several Python libraries, including os, pandas, numpy, matplotlib, and json to create yearly trend plots. The program loads 
+                    data from a JSON file into the weather_stations variable using the json library. It then reads all CSV files in the directory and processes the data. 
+                    The program matches station IDs with the corresponding station names from the weather_stations.json data file, filters out rows with invalid data, 
+                    and converts valid data to a pandas dataframe. The program creates a 'DATE' column with datetime type, drops the original year, month, and day columns, 
+                    converts the parameter (e.g., 'MEAN TEMP') column to numeric dtype, replaces values outside the range of -50 to 150 with NaN (as a quick data 
+                    verification method), and removes any rows that contain NaN values. The program filters the data to include only years with enough non-missing values, 
+                    where the default threshold is 200 days.
+                </p>
+                <p class="text-light">
+                    The program defines a function for the trend line and sets an empty trend line with the periods used. It then extracts the data for each period, 
+                    creates a dictionary with the necessary information for the trend line, appends the trend dictionary to the list of trend lines for the current station, 
+                    creates a plot of the data and the trend line for the current period, and saves the plot to a PNG file. The program repeats this process for each CSV 
+                    file (i.e., weather station) in the directory to create yearly trend plots for all stations. Trend values are then used to create the map markers (with 
+                    corresponding colors matching thresholds). 
+                </p>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>

@@ -42,7 +42,7 @@ for filename in os.listdir(directory):
         data = data.dropna()
 
         # Set a threshold for the number of non-missing values in each year
-        min_days_per_year = 300
+        min_days_per_year = 200
 
         # Filter the data to include only years with enough non-missing values
         year_counts = data.groupby('YEAR')['MIN TEMP'].count()
